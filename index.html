@@ -1,0 +1,487 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>16-867: Human-Robot Interaction</title>
+  
+  <meta name="author" content="Andrea Bajcsy">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Style-related -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" href="favicon-dragon.ico">
+  <!--/ Style-related -->
+
+  <!-- MathJax -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+  </script>
+  <script>
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <!--/ MathJax -->
+</head>
+
+
+<!-- HEADER -->
+<div class="header" style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;padding-bottom:0px;">
+  <!-- Class name -->
+  <a href="index.html" class="logo" style="color:black;font-size:30px; padding-top:30px; padding-left:0px; width:100%;max-width:900px;">16-867: Human-Robot Interaction<p>Fall 2024</p></a>
+</div>
+<!--/ HEADER -->
+
+
+<body>
+
+<!-- CONTENT -->
+<table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+  <tr style="padding:0px">
+    <td style="padding:0px" class=main>
+    
+  <img src="./static/images/front-fig.png" class="center" width=100%, style="border-radius:20px">
+
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+    <tr>
+      <td class=main>
+
+        <p>
+          <b>Professor:</b> <a href="https://www.cs.cmu.edu/~abajcsy/">Andrea Bajcsy</a>  (<tt>abajcsy [at] cmu [dot] edu</tt>)
+          <br>
+          <b>Office Hours:</b> TBD
+          <br>
+          <b>Office Hours Location:</b> NSH 4629 
+        </p>
+        <p>
+          <b>Lecture Time: </b> Tues & Thurs, 11:00 - 12:20 pm
+          <br>
+          <b>Lecture Location: </b> GHC 4101
+        </p>
+        <p>
+          <b>Syllabus: </b> <a href="16-867_syllabus.pdf">PDF</a>
+          <br>
+          <b>Canvas: </b> TBD
+          <!-- <a href="https://canvas.cmu.edu/courses/38604">https://canvas.cmu.edu/courses/38604</a> -->
+        </p>
+
+        <h1 style="font-variant-caps: small-caps;">Overview</h1>
+        <p>
+          Human-robot interaction (HRI) is a multidisciplinary field that aims to create successful interactions between people and robots. 
+          In this class, we will study algorithmic HRI topics such as multi-agent mathematical models, human trajectory forecasting, human-in-the-loop reinforcement learning, shared autonomy, robot learning from multimodal human data, active learning, communication, and safety.
+        </p>
+        <p>This course aims to provide an overview of the state of the art in algorithmic HRI. 
+        As such, it will cover a large number of topics, with examples drawn from research published in the last five years. 
+        The course combines lecture, readings, in-class presentations, written reports, and a final project to engage students with the current challenges and approaches in the field. 
+        The course also emphasizes the practice of reading and discussing scientific literature to learn and communicate about the most recent progress in HRI.
+        </p>
+
+<!--         <h1 style="font-variant-caps: small-caps;">Prerequisites</h1>
+        <p>
+          The course is open to graduate students without strict prerequisites. Familiarity with differential equations, probability, and linear algebra is highly encouraged. Interested undergraduate students with a strong background may seek approval from the instructor.
+        </p> -->
+        <!------------------------------------------->
+      </td>
+    </tr>
+  </tbody>
+  </table>
+  <!--/ CONTENT -->
+
+
+  <!-- NEWS -->
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+        <tr>
+        <td class=main>
+          <heading><b>News</b></heading>
+          <p>
+            <ul class="fa-ul">
+              <!-- <li><i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[02/07/24]  </p> Homework 1 description updated. Please see Canvas. </li> -->
+            </ul>
+          </p>
+        </td>
+      </tr>
+      </tbody>
+    </table>  
+  <!--/ NEWS -->
+
+  <!-- SCHEDULE -->
+ 
+  <h1 style="font-variant-caps: small-caps;">
+    Schedule (tentative)
+  </h1>
+  <table style="width:100%" class=schedule>
+  <tr>
+    <th>Date</th>
+    <th>Topic</th>
+    <th>Info</th>
+    <!-- <th>Info</th> -->
+  </tr>
+  
+<!--------------------->
+ <tr class="block"> 
+    <td><b>Week 1</b> <br> Tue, Aug 27</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Introduction</td>
+    <td>
+      <ul>
+        <li> Please check the course syllabus </li>
+      </ul>
+      <!-- <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture1-Intro.pdf"><b><i>Slides</i></b></a> -->
+      </p>
+    </td>
+    <!-- <td> </td> -->
+  </tr>
+
+  <tr class="block">
+    <td><b>Week 1</b> <br> Thurs, Aug 29</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Fundamentals</td>
+    <td>
+      <p>Single-Agent Decision Making</p>
+      <!-- <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture1-Intro.pdf"><b><i>Slides</i></b></a> -->
+      </p>
+    </td>
+    <!-- <td></td> -->
+  </tr>
+<!--------------------->
+  <tr> 
+    <td><b>Week 2</b> <br> Tue, Sept 3</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Fundamentals</td>
+    <td> 
+      <p>Multi-Agent Decision Making</p>
+      <!-- <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture2-mathematical-models-24.pdf"><b><i>Notes</i></b></a> -->
+    </td>
+    <!-- <td> Sign up for presentations</i> </td> -->
+  </tr>
+
+  <tr>
+    <td><b>Week 2</b> <br> Thurs, Sept 5</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Fundamentals </td>
+    <td> 
+      <p>Probability, Entropy and Information Gain, State Estimation</p>
+      <!-- <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture3-optimal-control-24.pdf"><b><i>Notes</i></b></a> -->
+    </td>
+    <!-- <td> </td> -->
+  </tr>
+
+<!--------------------->
+  <tr class="block">
+    <td><b>Week 3</b> <br> Tue, Sept 10</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Imitation Learning</td>
+    <td> 
+      <p>Behavior cloning, Human / Robot Gated DAgger, IRL</p>
+    </td>
+    <!-- <td> </td> -->
+  </tr>
+  
+ <tr class="block">
+    <td><b>Week 3</b> <br> Thurs, Sept 12</td>
+        <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Imitation Learning </td>
+    <td> 
+      <p><b>Required reading:</b></p>
+      <ul>
+        <li> <a href="">[P1]  </a></li>
+        <li> <a href=""> [P2] </a> </li>
+      </ul>
+    </td>
+    <!-- <td> </td> -->
+  </tr>
+
+   <!--------------------->
+   <tr>
+    <td><b>Week 4</b> <br> Tue, Sept 17</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Trajectory Forecasting </td>
+    <td> 
+      <p>Planning-based & learning-based; applications in manipulation, navigation</p>
+      <!-- <i><span class="label label-due text-base">Due</span></i> <b>Project Proposal</b> -->
+      <!-- <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture6-safety-24.pdf"><b><i>Notes</i></b></a> -->
+    </td>
+    <!-- <td>  </td> -->
+  </tr>
+
+
+ <tr>
+    <td><b>Week 4</b> <br> Thurs, Sept 19</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Trajectory Forecasting</td>
+    <td> 
+      <p><b>Required reading:</b></p>
+      <ul>
+        <li><a href="">[P1] </a></li>
+        <li><a href="">[P2] </a></li>
+      </ul>
+    </td>
+    <!-- <td> </td> -->
+  </tr>
+
+   <!--------------------->
+   <tr class="block"> 
+    <td><b>Week 5</b> <br> Tues, Sept 24</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Shared Autonomy</td>
+    <td> 
+      POMDPs, shared control foundations & frontiers 
+      <!-- <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture3-optimal-control-24.pdf"><b><i>Notes</i></b></a> -->
+    </td>
+    <!-- <td>  </td> -->
+   </tr>
+
+   
+  <tr class="block"> 
+    <td><b>Week 5</b> <br> Thurs, Sept 26</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Shared Autonomy</td>
+    <td> 
+      <p><b>Required reading:</b></p>
+      <ul>
+        <li> <a href="">[P1] </a></li>
+        <li> <a href=""> [P2] </a> </li>
+      </ul>
+  </tr>
+
+   <!--------------------------->
+   <tr>
+    <td><b>Week 6</b> <br> Tue, Oct 8</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Human-in-the-loop RL</td>
+    <td>
+      <p>RLHF / Alignment</p>
+      <!-- <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture7-human-pred-I-24.pdf"><b><i>Notes</i></b></a> -->
+    </td>
+   </tr>
+
+
+ <tr>
+    <td><b>Week 6</b> <br> Thurs, Oct 10</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</td>
+    <td>
+      <p> <b> Required Reading:</b></p>
+      <ul>
+        <li><a href=""> [P1]</a></li>
+        <li><a href=""> [P2]</a></li>
+      </ul>
+    </td>
+  </tr>
+
+
+   <!--------------------------->
+   <tr class="block">
+    <td><b>Week 7</b> <br> Tue, Oct 14</td>
+    <td><i>No Class (Fall Break)</i></td>
+    <td> 
+    </td>
+    <!-- <td> </td> -->
+   </tr>
+    
+ <tr class="block">
+    <td><b>Week 7</b> <br> Thurs, Oct 17</td>
+    <td><i>No Class (Fall Break)</i></td>
+    <td> 
+    </td>
+ </tr>
+ 
+    <!--------------------------->     
+
+ <tr>
+    <td><b>Week 8</b> <br> Tue, Oct 22</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Sources of Human Feedback</td>
+    <td>
+      Multimodal data (corrections, language, demonstrations, preferences, etc.)
+    </td>
+    <!-- <td></td> -->
+ </tr>
+
+ <tr>
+    <td><b>Week 8</b> <br> Thurs, Oct 24</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Sources of Human Feedback</td>
+    <td>
+      <p><b>Required Reading:</b></p>
+      <ul>
+        <li> <a href="">[P1] </a></li></li>
+        <li> <a href="">[P2]  </a></li>
+      </ul> 
+    </td>
+    <!-- <td></td> -->
+ </tr>
+ 
+    <!--------------------------->   
+ <tr class="block">
+    <td><b>Week 9</b> <br> Tue, Oct 29</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Active Learning </td>
+    <td> 
+      <p>Information gain, Asking questions, Optimizing over multimodal feedback </p>
+    </td>
+    <!-- <td></td> -->
+ </tr>
+
+
+ <tr class="block">
+    <td><b>Week 9</b> <br> Thurs, Oct 31</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Active Learning</td>
+    <td>
+      <p><span class="label label-due text-base">Due</span> </i> <b>Mid-term Report </b></p>
+      <p><b>Required Reading:</b></p>
+      <ul>
+        <li> <a href="">[P1] </a></li></li>
+        <li> <a href="">[P2]  </a></li>
+      </ul>
+    </td>
+ </tr>
+ 
+  <!--------------------------->   
+<tr>
+    <td><b>Week 10</b> <br> Tue, Nov 5</td>
+    <td><i>No Class (Democracy Day)</i></td>
+    <td> 
+    </td>
+ </tr>
+
+ <tr>
+    <td><b>Week 10</b> <br> Thur, Nov 7</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Communication</td>
+    <td>
+      <p>Theory of mind, legibility, communicating objectives and policies</p>
+      <!-- <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture10-human-feedback.pdf"><b><i>Slides</i></b></a>
+      </p> -->
+    </td>
+ </tr>
+ 
+  <!--------------------------->   
+   <tr class="block">
+    <td><b>Week 11</b> <br> Tue, Nov 12</td>
+    <td> <i><span class="label label-presentation text-base">Paper discussion</span></i> Communication</td>
+    <td>
+      <p><b>Required Reading:</b></p>
+      <ul>
+        <li> <a href="">[P1] </a></li></li>
+        <li> <a href="">[P2]  </a></li>
+      </ul>
+    </td>
+ </tr>
+
+ <tr class="block">
+    <td><b>Week 11</b> <br> Thur, Nov 14</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> HRI as a Game</td>
+    <td>
+      CIRL, Influence-aware planning
+    </td>
+ </tr>
+ 
+  <!--------------------------->   
+ <tr>
+    <td><b>Week 12</b> <br> Tue, Nov 19</td>
+    <td><i><span class="label label-presentation text-base"> Paper discussion</span></i> HRI as a Game</td>
+    <td>
+      <p><b>Required Reading:</b></p>
+      <ul>
+        <li> <a href="">[P1] </a></li></li>
+        <li> <a href="">[P2]  </a></li>
+      </ul>
+    </td>
+    <!-- <td></td> -->
+ </tr>
+
+ <tr>
+    <td><b>Week 12</b> <br> Thurs, Nov 21</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Safety & Uncertainty Quantification</td>
+    <td>
+      Decision-theoretic & statistical safety for HRI
+      </ul>
+    </td>
+ </tr>
+ 
+   <!--------------------------->   
+ <tr class="block">
+    <td><b>Week 13</b> <br> Tue, Nov 26</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Safety & Uncertainty Quantification </td> 
+    <td>
+      <p><b>Required Reading:</b></p>
+      <ul>
+        <li> <a href="">[P1] </a></li></li>
+        <li> <a href="">[P2]  </a></li>
+      </ul>
+    </td>
+ </tr>
+
+
+ <tr class="block">
+    <td><b>Week 13</b> <br> Thurs, Nov 28</td>
+    <td><i>No Class (Thanksgiving)</i></td>
+    <td> 
+    </td>
+ </tr>
+ 
+ <!--------------------------->  
+ 
+ <tr>
+    <td><b>Week 14</b> <br> Tue, Dec 3</td>
+    <td><i><span class="label label-presentation text-base">Final presentations</span></i> </td>
+    <td>
+      <i><span class="label label-due text-base">Due</span></i> <b>Slides uploaded to Canvas Dec. 2, 11:59pm ET</b>
+      <!-- <p><i>Presenters:</i> -->
+</p>
+    </td>
+ </tr>
+
+  <tr>
+    <td><b>Week 14</b> <br> Thurs, Dec 5</td>
+    <td><i><span class="label label-presentation text-base">Final presentations</span></i> </td>
+    <td>
+    <!-- <p><i>Presenters:</i> -->
+    </p>
+    </td>
+  </tr>
+
+ <!--------------------------->
+
+ 
+ <tr class="block">
+    <td><b>Week 15</b> <br> Tue, Dec 10</td>
+    <td><i>No Class (Final Exams)</i> </td>
+    <td>
+      <i><span class="label label-due text-base">Due</span></i> <b>Final report uploaded to Canvas on Dec 11, 11:59pm ET</b>
+    </td>
+ </tr>
+
+  <tr class="block">
+    <td><b>Week 15</b> <br> Thurs, Dec 12</td>
+    <td><i>No Class (Final Exams)</i> </td>
+    <td>
+    </td>
+  </tr>
+
+ <!--------------------------->
+  
+
+</table>
+  <!--/ SCHEDULE -->
+
+  <!-- Footer -->
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="padding-top:0px;">
+    <tbody>
+      <tr>
+      <td class=main>
+      <br>
+      <p></p>
+      <br><br>
+      </td>
+      </tr>
+    </tbody>
+  </table>
+  <!--/ Footer -->
+
+</body>
+
+</html>
