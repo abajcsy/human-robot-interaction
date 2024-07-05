@@ -68,9 +68,9 @@
           <b>Lecture Location: </b> GHC 4101
         </p>
         <p>
-          <b>Syllabus: </b> <a href="16-867_syllabus.pdf">PDF</a>
+          <b>Syllabus: </b> <a href="16_867_HRI__Syllabus.pdf">PDF</a>
           <br>
-          <b>Canvas: </b> TBD
+          <b>Canvas: </b> TBA
           <!-- <a href="https://canvas.cmu.edu/courses/38604">https://canvas.cmu.edu/courses/38604</a> -->
         </p>
 
@@ -130,10 +130,11 @@
 <!--------------------->
  <tr class="block"> 
     <td><b>Week 1</b> <br> Tue, Aug 27</td>
-    <td><i><span class="label label-lecture text-base">Lecture</span></i> Introduction</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Introduction + Fundamentals</td>
     <td>
+      <p><p>Single-Agent Decision Making</p></p>
       <ul>
-        <li> Please check the course syllabus </li>
+        <li> <i>Please check the course syllabus</i> </li>
       </ul>
       <!-- <p><b>Materials:</b>
       <a class="label label-notes text-base" href="./static/pdf/Lecture1-Intro.pdf"><b><i>Slides</i></b></a> -->
@@ -146,7 +147,7 @@
     <td><b>Week 1</b> <br> Thurs, Aug 29</td>
     <td><i><span class="label label-lecture text-base">Lecture</span></i> Fundamentals</td>
     <td>
-      <p>Single-Agent Decision Making</p>
+      <p>From Single-Agent to Multi-Agent Decision Making</p>
       <!-- <p><b>Materials:</b>
       <a class="label label-notes text-base" href="./static/pdf/Lecture1-Intro.pdf"><b><i>Slides</i></b></a> -->
       </p>
@@ -158,7 +159,7 @@
     <td><b>Week 2</b> <br> Tue, Sept 3</td>
     <td><i><span class="label label-lecture text-base">Lecture</span></i> Fundamentals</td>
     <td> 
-      <p>Multi-Agent Decision Making</p>
+      <p>Probability, Entropy and Information Gain, State Estimation</p>
       <!-- <p><b>Materials:</b>
       <a class="label label-notes text-base" href="./static/pdf/Lecture2-mathematical-models-24.pdf"><b><i>Notes</i></b></a> -->
     </td>
@@ -167,11 +168,14 @@
 
   <tr>
     <td><b>Week 2</b> <br> Thurs, Sept 5</td>
-    <td><i><span class="label label-lecture text-base">Lecture</span></i> Fundamentals </td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Fundamentals </td>
     <td> 
-      <p>Probability, Entropy and Information Gain, State Estimation</p>
-      <!-- <p><b>Materials:</b>
-      <a class="label label-notes text-base" href="./static/pdf/Lecture3-optimal-control-24.pdf"><b><i>Notes</i></b></a> -->
+      <p><b>Required reading:</b></p>
+      <ul>
+        <li> <a href="https://escholarship.org/content/qt5v06n97q/qt5v06n97q.pdf">[P1] Goal Inference as Inverse Planning. Baker, et al. (2007)</a></li>
+        <li> <a href="https://people.cs.umass.edu/~barto/courses/cs687/Cassandra-etal-POMDP.pdf">[P2]  Learning Policies for Partially Observable Environments: Scaling up. Kaebling, et al. (1995)</a></li>
+      <!-- <p>Probability, Entropy and Information Gain, State Estimation</p> -->
+    </ul>
     </td>
     <!-- <td> </td> -->
   </tr>
@@ -192,8 +196,11 @@
     <td> 
       <p><b>Required reading:</b></p>
       <ul>
-        <li> <a href="">[P1]  </a></li>
-        <li> <a href=""> [P2] </a> </li>
+        <li> <a href="https://arxiv.org/abs/1810.02890">[P1] HG-DAgger: Interactive Imitation Learning with Human Experts. Kelly, et al. (2019) </a></li>
+       <!--  <li> <a href="https://arxiv.org/abs/2108.03298"> [P2] What Matters in Learning from Offline Human Demonstrations for Robot Manipulation. Mandlekar, et al. (2021) </a> </li>
+        <li> <a href="https://arxiv.org/abs/2210.09539">[P3] Hierarchical Model-Based Imitation Learning for Planning in Autonomous Driving. Bronstein, et al. (2022) </a></li> -->
+        <li><a href="https://arxiv.org/abs/2108.06038">[P2] Co-GAIL: Learning Diverse Strategies for Human-Robot Collaboration</a></li>
+        <li> <a href="https://arxiv.org/pdf/2001.04465"> [P3] LESS is More: Rethinking Probabilistic Models of Human Behavior. Bobu, et al. (2020) </a> </li>
       </ul>
     </td>
     <!-- <td> </td> -->
@@ -219,8 +226,9 @@
     <td> 
       <p><b>Required reading:</b></p>
       <ul>
-        <li><a href="">[P1] </a></li>
-        <li><a href="">[P2] </a></li>
+        <li><a href="https://arxiv.org/abs/2310.13258">[P1] ManiCast: Collaborative Manipulation with Cost-Aware Human Forecasting. Kedia, et al. (2023)</a></li>
+        <li><a href="https://las.inf.ethz.ch/files/trautman10unfreezing.pdf">[P2] Unfreezing the Robot: Navigation in dense, interacting crowds. Trautman & Krause (2010)</a></li>
+        <li><a href="https://arxiv.org/abs/2104.09959v2">[P3] Identifying Driver Interactions via Conditional Behavior Prediction. Tolstaya, et al. (2021)</a></li>
       </ul>
     </td>
     <!-- <td> </td> -->
@@ -231,7 +239,8 @@
     <td><b>Week 5</b> <br> Tues, Sept 24</td>
     <td><i><span class="label label-lecture text-base">Lecture</span></i> Shared Autonomy</td>
     <td> 
-      POMDPs, shared control foundations & frontiers 
+      <p><span class="label label-due text-base">Due</span> </i> <b>Project Proposal </b></p>
+      <p>POMDPs, shared control foundations & frontiers</p> 
       <!-- <p><b>Materials:</b>
       <a class="label label-notes text-base" href="./static/pdf/Lecture3-optimal-control-24.pdf"><b><i>Notes</i></b></a> -->
     </td>
@@ -245,8 +254,11 @@
     <td> 
       <p><b>Required reading:</b></p>
       <ul>
-        <li> <a href="">[P1] </a></li>
-        <li> <a href=""> [P2] </a> </li>
+        <li> <a href="https://arxiv.org/abs/1503.07619">[P1] Shared Autonomy via Hindsight Optimization. Javdani, et al. (2015) </a></li>
+        <!-- <li> <a href="https://arxiv.org/abs/2205.09795"> [P2] SARI: Shared Autonomy across Repeated Interaction. Jonnavittula, et al. (2024)</a> </li> -->
+        <li> <a href="https://arxiv.org/abs/1802.01744">[P2] Shared Autonomy via Deep Reinforcement Learning. Reddy, et al. (2018)</a></li>
+        <!-- <li> <a href="https://arxiv.org/abs/2301.02555"> [P3] "No, to the Right" -- Online Language Corrections for Robotic Manipulation via Shared Autonomy. Cui, et al. (2023)</a> </li> -->
+        <li> <a href="https://arxiv.org/abs/2111.03205"> [P3] LILA: Language-Informed Latent Actions. Karamcheti, et al. (2021)</a> </li>
       </ul>
   </tr>
 
@@ -255,6 +267,7 @@
     <td><b>Week 6</b> <br> Tue, Oct 8</td>
     <td><i><span class="label label-lecture text-base">Lecture</span></i> Human-in-the-loop RL</td>
     <td>
+      <p><span class="label label-due text-base">Due</span> </i> <b>Homework </b></p>
       <p>RLHF / Alignment</p>
       <!-- <p><b>Materials:</b>
       <a class="label label-notes text-base" href="./static/pdf/Lecture7-human-pred-I-24.pdf"><b><i>Notes</i></b></a> -->
@@ -268,8 +281,10 @@
     <td>
       <p> <b> Required Reading:</b></p>
       <ul>
-        <li><a href=""> [P1]</a></li>
-        <li><a href=""> [P2]</a></li>
+        <li><a href="https://www.cs.utexas.edu/~pstone/Papers/bib2html-links/KCAP09-knox.pdf"> [P1] Interactively Shaping Agents via Human Reinforcement. Knox & Stone (2009)</a></li>
+        <!-- <li><a href="https://arxiv.org/abs/1706.03741"> [P2] Deep reinforcement learning from human preferences. Christiano, et al. (2017) </a></li> -->
+        <li><a href="https://arxiv.org/abs/2106.05091"> [P2] PEBBLE: Feedback-Efficient Interactive Reinforcement Learning via Relabeling Experience and Unsupervised Pre-training. Lee, et al. (2021) </a></li>
+        <li><a href="https://arxiv.org/abs/2307.15217"> [P3] Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback. Casper, et al. (2023) </a></li>
       </ul>
     </td>
   </tr>
@@ -297,7 +312,7 @@
     <td><b>Week 8</b> <br> Tue, Oct 22</td>
     <td><i><span class="label label-lecture text-base">Lecture</span></i> Sources of Human Feedback</td>
     <td>
-      Multimodal data (corrections, language, demonstrations, preferences, etc.)
+      Multimodal data (implicit, explicit)
     </td>
     <!-- <td></td> -->
  </tr>
@@ -308,8 +323,9 @@
     <td>
       <p><b>Required Reading:</b></p>
       <ul>
-        <li> <a href="">[P1] </a></li></li>
-        <li> <a href="">[P2]  </a></li>
+        <li> <a href="https://proceedings.mlr.press/v78/bajcsy17a/bajcsy17a.pdf">[P1] Learning Robot Objectives from Physical Human Interaction. Bajcsy et al. (2018) </a></li></li>
+        <li> <a href="https://arxiv.org/abs/2204.05186">[P2] Correcting Robot Plans with Natural Language Feedback. Sharma et al. (2022) </a></li>
+        <li> <a href="https://arxiv.org/abs/2309.02721">[P3] Gesture-Informed Robot Assistance via Foundation Models. Lin, et al. (2023) </a></li>
       </ul> 
     </td>
     <!-- <td></td> -->
@@ -320,6 +336,7 @@
     <td><b>Week 9</b> <br> Tue, Oct 29</td>
     <td><i><span class="label label-lecture text-base">Lecture</span></i> Active Learning </td>
     <td> 
+      <p><span class="label label-due text-base">Due</span> </i> <b>Mid-term Report </b></p>
       <p>Information gain, Asking questions, Optimizing over multimodal feedback </p>
     </td>
     <!-- <td></td> -->
@@ -330,11 +347,12 @@
     <td><b>Week 9</b> <br> Thurs, Oct 31</td>
     <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Active Learning</td>
     <td>
-      <p><span class="label label-due text-base">Due</span> </i> <b>Mid-term Report </b></p>
       <p><b>Required Reading:</b></p>
       <ul>
-        <li> <a href="">[P1] </a></li></li>
-        <li> <a href="">[P2]  </a></li>
+        <li> <a href="https://people.eecs.berkeley.edu/~anca/papers/IROS16_active.pdf">[P1] Information Gathering Actions over Human Internal State. Sadigh, et al. (2016)</a></li>
+        <!-- <li> <a href="https://people.eecs.berkeley.edu/~sastry/pubs/Pdfs%20of%202017/SadighActive2017.pdf">[P2] Active Preference-Based Learning of Reward Functions. Sadigh, et al. (2017) </a></li> -->
+        <li> <a href="https://proceedings.mlr.press/v205/fitzgerald23a.html">[P2] INQUIRE: INteractive Querying for User-aware Informative REasoning. Fitzgerald et al. (2023)</a></li>
+        <li><a href="https://arxiv.org/abs/2405.06908">[P3] To Ask or Not To Ask: Human-in-the-loop Contextual Bandits with Applications in Robot-Assisted Feeding. Banerjee, et al. (2024)</a></li>
       </ul>
     </td>
  </tr>
@@ -355,6 +373,7 @@
       <!-- <p><b>Materials:</b>
       <a class="label label-notes text-base" href="./static/pdf/Lecture10-human-feedback.pdf"><b><i>Slides</i></b></a>
       </p> -->
+      <!-- A Review of Communicating Robot Learning during Human-Robot Interaction -->
     </td>
  </tr>
  
@@ -365,8 +384,10 @@
     <td>
       <p><b>Required Reading:</b></p>
       <ul>
-        <li> <a href="">[P1] </a></li></li>
-        <li> <a href="">[P2]  </a></li>
+        <li> <a href="https://sim.ece.utexas.edu/static/papers/cakmak12_hri_active.pdf">[P1] Designing robot learners that ask good questions. Cakmak & Thomaz (2012) </a></li></li>
+        <li> <a href="https://arxiv.org/abs/1810.08167">[P2] Expressing Robot Incapability. Huang, et al. (2018) </a></li>
+        <li> <a href="https://dl.acm.org/doi/abs/10.1145/3203305">[P3] Planning with Verbal Communication for Human-Robot Collaboration. Nikolaidis, et al. (2018) </a></li>
+        <!-- <li> <a href="https://arxiv.org/abs/2109.01747">[P3] Communicating Inferred Goals with Passive Augmented Reality and Active Haptic Feedback. Mullen, et al. (2021)</a></li> -->
       </ul>
     </td>
  </tr>
@@ -386,8 +407,12 @@
     <td>
       <p><b>Required Reading:</b></p>
       <ul>
-        <li> <a href="">[P1] </a></li></li>
-        <li> <a href="">[P2]  </a></li>
+        <li> <a href="https://arxiv.org/abs/1606.03137">[P1] Cooperative Inverse Reinforcement Learning. Hadfield-Menell, et al. (2016) </a></li></li>
+        <!-- <li> <a href="https://www.pnas.org/doi/10.1073/pnas.1820676116">[P2] Social behavior for autonomous vehicles. Schwarting, et al. (2018)</a></li> -->
+        <li><a href="https://arxiv.org/abs/1701.07790"> [P2] Game-Theoretic Modeling of Human Adaptation in Human-Robot Collaboration. Nikolaidis, et al. (2017)</a></li>
+        <li> <a href="https://arxiv.org/abs/2402.14174">[P3] Blending Data-Driven Priors in Dynamic Games. Lidard, et al. (2024)</a></li>
+        <!-- <li> <a href="https://arxiv.org/abs/2305.17600">[P3] NashFormer: Leveraging Local Nash Equilibria for Semantically Diverse Trajectory Prediction. Lidard, et al. (2023)</a></li> -->
+        <!-- Pragmatic-Pedagogic Value Alignment -->
       </ul>
     </td>
     <!-- <td></td> -->
@@ -409,8 +434,9 @@
     <td>
       <p><b>Required Reading:</b></p>
       <ul>
-        <li> <a href="">[P1] </a></li></li>
-        <li> <a href="">[P2]  </a></li>
+        <li> <a href="https://arxiv.org/abs/2002.00941"> [P1] Quantifying Hypothesis Space Misspecification in Learning from Human-Robot Demonstrations and Physical Corrections. Bobu, et al. (2020) </a></li>
+        <li> <a href="https://arxiv.org/abs/2307.01928">[P2] Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners. Ren, et al. (2023) </a></li>
+        <li> <a href="https://arxiv.org/abs/2405.09794">[P3] Human-AI Safety: A Descendant of Generative AI and Control Systems Safety. Bajcsy & Fisac (2024)</a></li></li>
       </ul>
     </td>
  </tr>
@@ -451,7 +477,7 @@
     <td><b>Week 15</b> <br> Tue, Dec 10</td>
     <td><i>No Class (Final Exams)</i> </td>
     <td>
-      <i><span class="label label-due text-base">Due</span></i> <b>Final report uploaded to Canvas on Dec 11, 11:59pm ET</b>
+      <i><span class="label label-due text-base">Due</span></i> <b>Final report uploaded to Canvas by Dec 10, 11:59pm ET</b>
     </td>
  </tr>
 
