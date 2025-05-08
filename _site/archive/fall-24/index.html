@@ -1,0 +1,563 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>16-867: Human-Robot Interaction</title>
+  
+  <meta name="author" content="Andrea Bajcsy">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Style-related -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" href="favicon-dragon.ico">
+  <!--/ Style-related -->
+
+  <!-- MathJax -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+  </script>
+  <script>
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <!--/ MathJax -->
+</head>
+
+
+<!-- HEADER -->
+<div class="header" style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;padding-bottom:0px;">
+  <!-- Class name -->
+  <a href="index.html" class="logo" style="color:black;font-size:30px; padding-top:30px; padding-left:0px; width:100%;max-width:900px;">16-867: Human-Robot Interaction<p>Fall 2024</p></a>
+</div>
+<!--/ HEADER -->
+
+
+<body>
+
+<!-- CONTENT -->
+<table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+  <tr style="padding:0px">
+    <td style="padding:0px" class=main>
+    
+  <img src="./static/images/front-fig.png" class="center" width=100%, style="border-radius:20px">
+
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+    <tr>
+      <td class=main>
+
+        <p>
+          <b>Professor:</b> <a href="https://www.cs.cmu.edu/~abajcsy/">Andrea Bajcsy</a>  (<tt>abajcsy [at] cmu [dot] edu</tt>)
+          <br>
+          <b>Office Hours:</b> Tues, 12:20 - 1:20 pm (after class)
+          <br>
+          <b>Office Hours Location:</b> NSH 4629 
+        </p>
+        <p>
+          <b>Teaching Assistant: </b> <a href="https://pranaygupta36.github.io/">Pranay Gupta</a> (<tt>pranaygu [at] andrew [dot] cmu [dot] edu</tt>)
+          <br>
+          <b>Office Hours:</b>  Mon, 4:00 - 5:00pm
+          <br>
+          <b>Office Hours Location: </b> NSH 4504
+        </p>
+        <p>
+          <b>Lecture Time: </b> Tues & Thurs, 11:00 - 12:20 pm
+          <br>
+          <b>Lecture Location: </b> Wean 4623
+          <br>
+          <b>Syllabus: </b> <a href="16_867_HRI__Syllabus.pdf">PDF</a>
+          <br>
+          <b>Canvas: </b> <a href="https://canvas.cmu.edu/courses/41578">https://canvas.cmu.edu/courses/41578</a>
+        </p>
+
+        <h1 style="font-variant-caps: small-caps;">Overview</h1>
+        <p>
+          Human-robot interaction (HRI) is a multidisciplinary field that aims to create successful interactions between people and robots. 
+          In this class, we will study algorithmic HRI topics such as mathematical human models, trajectory forecasting, shared autonomy, robot learning from human feedback, active learning, communication, and safety.
+        </p>
+        <p>This course aims to provide an overview of the state of the art in algorithmic HRI. 
+        As such, it will cover a large number of topics, with examples drawn from foundational work and research published in the last five years. 
+        The course combines lecture, readings, in-class presentations, written reports, and a final project to engage students with the current challenges and approaches in the field. 
+        The course also emphasizes the practice of reading and discussing scientific literature to learn and communicate about the most recent progress in HRI.
+        </p>
+
+<!--         <h1 style="font-variant-caps: small-caps;">Prerequisites</h1>
+        <p>
+          The course is open to graduate students without strict prerequisites. Familiarity with differential equations, probability, and linear algebra is highly encouraged. Interested undergraduate students with a strong background may seek approval from the instructor.
+        </p> -->
+        <!------------------------------------------->
+      </td>
+    </tr>
+  </tbody>
+  </table>
+  <!--/ CONTENT -->
+
+
+  <!-- NEWS -->
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+        <tr>
+        <td class=main>
+          <heading><b>News</b></heading>
+          <p>
+            <ul class="fa-ul">
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[11/21/24]  </p>Lecture notes 11 uploaded</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[11/20/24]  </p>New extended deadline for final project report: Dec 12!</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[11/14/24]  </p>Lecture notes 10 uploaded</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[10/29/24]  </p>Lecture notes 9 uploaded</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[10/10/24]  </p>Lecture notes 8 uploaded</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[10/08/24]  </p>Update: Class cancelled on Thur, Nov 7 because Andrea travels to Conference on Robot Learning</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[10/08/24]  </p>Lecture notes 7 uploaded</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[09/24/24]  </p>Prof. Dylan Losey's guest lecture slides uploaded</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[09/23/24]  </p>Consider using the AI Maker Space in Tepper for your projects! Contact Manager: Greg Armstrong (ai-makerspace@cs.cmu.edu)</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[09/17/24]  </p>Lecture notes 5 uploaded</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[09/05/24]  </p>Lecture notes 4 uploaded</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[09/03/24]  </p>Lecture notes 3 uploaded</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[09/02/24]  </p>Small updates to the first two week schedule and papers</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[08/29/24]  </p>Lecture notes 1 and 2 uploaded</li>
+              <li> <i class="fa fa-chevron-right"\></i> <p style="display:inline;color:#f18800;">[08/19/24]  </p> New room location: Wean 4623</li>
+            </ul>
+          </p>
+        </td>
+      </tr>
+      </tbody>
+    </table>  
+  <!--/ NEWS -->
+
+  <!-- SCHEDULE -->
+ 
+  <h1 style="font-variant-caps: small-caps;">
+    Schedule (tentative)
+  </h1>
+  <table style="width:100%" class=schedule>
+  <tr>
+    <th>Date</th>
+    <th>Topic</th>
+    <th>Info</th>
+    <!-- <th>Info</th> -->
+  </tr>
+  
+<!--------------------->
+ <tr class="block"> 
+    <td><b>Week 1</b> <br> Tue, Aug 27</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Introduction</td>
+    <td>
+      <ul>
+        <li> <i>Please check the course syllabus</i> </li>
+      </ul>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture1-Intro.pdf"><b><i>Slides</i></b></a>
+      </p>
+    </td>
+    <!-- <td> </td> -->
+  </tr>
+
+  <tr class="block">
+    <td><b>Week 1</b> <br> Thurs, Aug 29</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Fundamentals</td>
+    <td>
+      <p><p>Single-Agent Decision Making</p></p>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture2-MDPs.pdf"><b><i>Notes</i></b></a>
+      </p>
+    </td>
+    <!-- <td></td> -->
+  </tr>
+<!--------------------->
+  <tr> 
+    <td><b>Week 2</b> <br> Tue, Sept 3</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Fundamentals</td>
+    <td> 
+      <p><p>Single-Agent Decision Making (cont'd)</p></p>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture3-ValueFunctions.pdf"><b><i>Notes</i></b></a>
+      </p>
+    </td>
+    <!-- <td> Sign up for presentations</i> </td> -->
+  </tr>
+
+  <tr>
+    <td><b>Week 2</b> <br> Thurs, Sept 5</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Fundamentals </td>
+    <td> 
+      <p>Probability, Bayesian inference</p>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture4-Probability.pdf"><b><i>Notes</i></b></a>
+    </td>
+    <!-- <td> </td> -->
+  </tr>
+
+<!--------------------->
+  <tr class="block">
+    <td><b>Week 3</b> <br> Tue, Sept 10</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Fundamentals</td>
+    <td> 
+      <p><b>Required reading:</b></p>
+      <ul>
+        <li> <a href="https://escholarship.org/content/qt5v06n97q/qt5v06n97q.pdf">[P1] Goal Inference as Inverse Planning. Baker, et al. (2007)</a></li>
+        <li> <a href="https://personalrobotics.cs.washington.edu/publications/ziebart2009pedpred.pdf">[P2]  Planning-based Prediction for Pedestrians. Zeibart, et al. (2009)</a></li>
+      </ul>
+    </td>
+    <!-- <td>  </td> -->
+  </tr>
+  
+ <tr class="block">
+    <td><b>Week 3</b> <br> Thurs, Sept 12</td>
+        <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Mathematical Human Models </td>
+    <td> 
+      <p> <b> Required Reading:</b></p>
+      <ul>
+        <li><a href="https://proceedings.neurips.cc/paper/2018/file/6f2268bd1d3d3ebaabb04d6b5d099425-Paper.pdf"> [P1] Where Do You Think You’re Going?: Inferring Beliefs about Dynamics from Behavior. Reddy, et al. (2018) </a></li>
+        <li> <a href="https://arxiv.org/pdf/2001.04465"> [P2] LESS is More: Rethinking Probabilistic Models of Human Behavior. Bobu, et al. (2020) </a> </li>
+        <!-- <li><a href="https://arxiv.org/abs/2204.10759"> [P3] The Boltzmann Policy Distribution: Accounting for Systematic Suboptimality in Human Models. Laidlaw & Dragan (2022). </a></li> -->
+      </ul>
+    </td>
+  </tr>
+
+   <!--------------------->
+   <tr>
+    <td><b>Week 4</b> <br> Tue, Sept 17</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Trajectory Forecasting</td>
+    <td>
+      <p>Planning-based & learning-based; applications in manipulation, navigation</p>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture5-TrajectoryForecasting.pdf"><b><i>Notes</i></b></a>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture5-Projects.pdf"><b><i>Slides (project examples)</i></b></a>
+    </td>
+   </tr>
+
+   
+    <tr>
+    <td><b>Week 4</b> <br> Thurs, Sept 19</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Trajectory Forecasting</td>
+    <td>  
+      <p><b>Required reading:</b></p>
+      <ul>
+        <li><a href="https://arxiv.org/abs/1806.00109">[P1] Probabilistically Safe Robot Planning with Confidence-Based Human Predictions. Bajcsy, et al. (2018)</a></li>
+        <!-- <li><a href="https://arxiv.org/abs/2104.09959v2">[P2] Identifying Driver Interactions via Conditional Behavior Prediction. Tolstaya, et al. (2021)</a></li> -->
+        <li><a href="https://arxiv.org/abs/2310.13258">[P2] ManiCast: Collaborative Manipulation with Cost-Aware Human Forecasting. Kedia, et al. (2023)</a></li>
+      </ul>
+    </td>
+    <!-- <td> </td> -->
+  </tr>
+
+   <!--------------------->
+   <tr class="block"> 
+      <td><b>Week 5</b> <br> Tues, Sept 24</td>
+      <td><i><span class="label label-guest-lecture text-base">Guest Lecture</span></i> Shared Autonomy </td>
+      <td> 
+        <p><span class="label label-due text-base">Due</span> </i> <b>Project Proposal</b></p>
+        <p><a href="https://dylanlosey.com/"><b>Dylan Losey</b></a> (Prof @ Virginia Tech)</p>
+        <!-- <p>POMDPs, shared control foundations & frontiers</p>  -->
+        <p><b>Materials:</b>
+        <a class="label label-notes text-base" href="./static/pdf/shared_autonomy-Losey.pdf"><b><i>Slides</i></b></a>
+      </td>
+      <!-- <td>  </td> -->
+    </tr>
+
+
+    <tr class="block"> 
+      <td><b>Week 5</b> <br> Thurs, Sept 26</td>
+      <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Shared Autonomy</td>
+      <td> 
+        <p><b>Required reading:</b></p>
+        <ul>
+          <li> <a href="https://arxiv.org/abs/1503.07619">[P1] Shared Autonomy via Hindsight Optimization. Javdani, et al. (2015) </a></li>
+          <!-- <li> <a href="https://arxiv.org/abs/2205.09795"> [P2] SARI: Shared Autonomy across Repeated Interaction. Jonnavittula, et al. (2024)</a> </li> -->
+          <!-- <li> <a href="https://arxiv.org/abs/1802.01744">[P2] Shared Autonomy via Deep Reinforcement Learning. Reddy, et al. (2018)</a></li> -->
+          <!-- <li> <a href="https://arxiv.org/abs/2301.02555"> [P3] "No, to the Right" -- Online Language Corrections for Robotic Manipulation via Shared Autonomy. Cui, et al. (2023)</a> </li> -->
+          <li> <a href="https://arxiv.org/abs/2111.03205"> [P2] LILA: Language-Informed Latent Actions. Karamcheti, et al. (2021)</a> </li>
+        </ul>
+    </tr>
+
+   <!--------------------------->
+   <tr>
+    <td><b>Week 6</b> <br> Tue, Oct 1</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Experimental Design</td>
+    <td>
+      <p> Designing and conducting user studies</p>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture6-ExperimentalDesign.pdf"><b><i>Slides</i></b></a>
+    </td>
+   </tr>
+
+
+ <tr>
+    <td><b>Week 6</b> <br> Thurs, Oct 3</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Experimental Design</td>
+    <td>
+      <p> <b> Required Reading:</b></p>
+      <ul>
+        <li><a href="https://link.springer.com/article/10.1007/s12369-010-0064-9"> [P1] Review of Human Studies Methods in HRI and Recommendations. Bethel & Murphy (2010) </a></li>
+        <li><a href="https://dl.acm.org/doi/10.1145/3610977.3634975"> [P2] Feel the Bite: Robot-Assisted Inside-Mouth Bite Transfer using Robust Mouth Perception and Physical Interaction-Aware Control. Jenamani, et al. (2024) </a></li>
+        <li><a href="https://dl.acm.org/doi/pdf/10.1145/3610977.3634964"> [P3] Independence in the Home: A Wearable Interface for a Person with Qadriplegia to Teleoperate a Mobile Manipulator. Padmanabha, et al. (2024) </a></li>
+      </ul>
+    </td>
+  </tr>
+
+  <!--------------------------->
+   <tr class="block"> 
+    <td><b>Week 7</b> <br> Tue, Oct 8</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Research Skills: Figures & Visuals</td>
+    <td>
+      <p><span class="label label-due text-base">Due</span> </i> <b>Homework </b></p>
+      <p>What makes a visual or plot "good"? Is there a process we can follow?</p>
+      <p> <i> Further Reading:</i></p>
+      <ul>
+        <li><a href="https://cmu-intentlab.github.io/pdf/bajcsy-SIGBOVIK.pdf">An Optimal Control Approach to Graphic Design. Bajcsy (2023)</a></li>
+      </ul>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture7-FigureDesign.pdf"><b><i>Slides</i></b></a>
+    </td>
+   </tr>
+
+
+ <tr class="block"> 
+    <td><b>Week 7</b> <br> Thurs, Oct 10</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Research Skills: Technical Writing</td>
+    <td>
+      <p>What is good technical writing? How can we become better writers?</p>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture8-Writing.pdf"><b><i>Slides</i></b></a>
+    </td>
+  </tr>
+
+
+   <!--------------------------->
+   <tr>
+    <td><b>Week 8</b> <br> Tue, Oct 15</td>
+    <td><i>No Class (Fall Break)</i></td>
+    <td> 
+    </td>
+    <!-- <td> </td> -->
+   </tr>
+    
+ <tr>
+    <td><b>Week 8</b> <br> Thurs, Oct 17</td>
+    <td><i>No Class (Fall Break)</i></td>
+    <td> 
+    </td>
+ </tr>
+ 
+    <!--------------------------->     
+
+ <tr class="block"> 
+    <td><b>Week 9</b> <br> Tue, Oct 22</td>
+    <td><i><span class="label label-guest-lecture text-base">Guest Lecture</span></i> Robot Learning from Human Feedback</td>
+    <td>
+      <p><a href="https://www.tescafitzgerald.com/"><b>Tesca Fitzgerald</b></a> (Prof @ Yale)</p>
+    </td>
+    <!-- <td></td> -->
+ </tr>
+
+ <tr class="block"> 
+    <td><b>Week 9</b> <br> Thurs, Oct 24</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Robot Learning from Human Feedback</td>
+    <td>
+      <p><b>Required Reading:</b></p>
+      <ul>
+        <li> <a href="https://proceedings.mlr.press/v78/bajcsy17a/bajcsy17a.pdf">[P1] Learning Robot Objectives from Physical Human Interaction. Bajcsy et al. (2018) </a></li></li>
+        <li> <a href="https://arxiv.org/abs/2204.05186">[P2] Correcting Robot Plans with Natural Language Feedback. Sharma et al. (2022) </a></li>
+        <li> <a href="https://arxiv.org/abs/2309.02721">[P3] Gesture-Informed Robot Assistance via Foundation Models. Lin, et al. (2023) </a></li>
+      </ul> 
+    </td>
+    <!-- <td></td> -->
+ </tr>
+ 
+    <!--------------------------->   
+ <tr>
+    <td><b>Week 10</b> <br> Tue, Oct 29</td>
+    <td><i><span class="label label-guest-lecture text-base">Guest Lecture</span></i> Active Learning (Michelle Zhao)</td>
+    <td> 
+      <p><span class="label label-due text-base">Due</span> </i> <b>Mid-term Report </b></p>
+      <p>Information gain, Asking questions </p>
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture9-ActiveLearning.pdf"><b><i>Slides</i></b></a>
+    </td>
+    <!-- <td></td> -->
+ </tr>
+
+
+ <tr>
+    <td><b>Week 10</b> <br> Thurs, Oct 31</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Active Learning</td>
+    <td>
+      <p><b>Required Reading:</b></p>
+      <ul>
+        <!-- <li> <a href="https://people.eecs.berkeley.edu/~anca/papers/IROS16_active.pdf">[P1] Information Gathering Actions over Human Internal State. Sadigh, et al. (2016)</a></li> -->
+        <li> <a href="https://arxiv.org/abs/1910.04365">[P1] Asking Easy Questions: A User-Friendly Approach to Active Reward Learning. Biyik, et al. (2019) </a></li>
+        <li> <a href="https://proceedings.mlr.press/v205/fitzgerald23a.html">[P2] INQUIRE: INteractive Querying for User-aware Informative REasoning. Fitzgerald et al. (2023)</a></li>
+        <!-- <li><a href="https://arxiv.org/abs/2405.06908">[P3] To Ask or Not To Ask: Human-in-the-loop Contextual Bandits with Applications in Robot-Assisted Feeding. Banerjee, et al. (2024)</a></li> -->
+      </ul>
+    </td>
+ </tr>
+ 
+  <!--------------------------->   
+<tr class="block"> 
+    <td><b>Week 11</b> <br> Tue, Nov 5</td>
+    <td><i>No Class (Democracy Day)</i></td>
+    <td> 
+    </td>
+ </tr>
+
+ <tr class="block"> 
+    <td><b>Week 11</b> <br> Thur, Nov 7</td>
+    <td><i>No Class (Andrea at CoRL)</i></td>
+    <!-- <td><i><span class="label label-lecture text-base">Lecture</span></i> Communication</td> -->
+    <td>
+      <!-- <p>Theory of mind, legibility, communicating objectives and policies</p> -->
+      <!-- <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture10-human-feedback.pdf"><b><i>Slides</i></b></a>
+      </p> -->
+      <!-- A Review of Communicating Robot Learning during Human-Robot Interaction -->
+    </td>
+ </tr>
+ 
+  <!--------------------------->   
+   <tr>
+    <td><b>Week 12</b> <br> Tue, Nov 12</td>
+    <td> <i><span class="label label-presentation text-base">Paper discussion</span></i> Communication</td>
+    <td>
+      <p><b>Required Reading:</b></p>
+      <ul>
+        <li> <a href="https://sim.ece.utexas.edu/static/papers/cakmak12_hri_active.pdf">[P1] Designing robot learners that ask good questions. Cakmak & Thomaz (2012) </a></li></li>
+        <li> <a href="https://arxiv.org/abs/1810.08167">[P2] Expressing Robot Incapability. Huang, et al. (2018) </a></li>
+        <li> <a href="https://dl.acm.org/doi/abs/10.1145/3203305">[P3] Planning with Verbal Communication for Human-Robot Collaboration. Nikolaidis, et al. (2018) </a></li>
+        <!-- <li> <a href="https://arxiv.org/abs/2109.01747">[P3] Communicating Inferred Goals with Passive Augmented Reality and Active Haptic Feedback. Mullen, et al. (2021)</a></li> -->
+      </ul>
+    </td>
+ </tr>
+
+ <tr>
+    <td><b>Week 12</b> <br> Thur, Nov 14</td>
+    <td><i><span class="label label-guest-lecture text-base">Guest Lecture</span></i> HRI as a Game (Lasse Peters)</td>
+    <td>
+      Influence-aware planning
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture10-GameTheoreticInteraction.pdf"><b><i>Slides</i></b></a>
+      </p>
+    </td>
+ </tr>
+ 
+  <!--------------------------->   
+ <tr class="block"> 
+    <td><b>Week 13</b> <br> Tue, Nov 19</td>
+    <td><i><span class="label label-presentation text-base"> Paper discussion</span></i> HRI as a Game</td>
+    <td>
+      <p><b>Required Reading:</b></p>
+      <ul>
+        <li> <a href="https://arxiv.org/abs/2209.10588">[P1] Towards Robots that Influence Humans over Long-Term Interaction. Sagheb, et al. (2023) </a></li></li>
+        <li> <a href="https://web.archive.org/web/20220218155452id_/http://www.roboticsproceedings.org/rss12/p29.pdf">[P2] Planning for Autonomous Cars that Leverage Effects on Human Actions. Sadigh, et al. (2018)</a></li>
+        <!-- <li><a href="https://arxiv.org/abs/1701.07790"> [P2] Game-Theoretic Modeling of Human Adaptation in Human-Robot Collaboration. Nikolaidis, et al. (2017)</a></li>
+        <li> <a href="https://arxiv.org/abs/2402.14174">[P3] Blending Data-Driven Priors in Dynamic Games. Lidard, et al. (2024)</a></li> -->
+        <!-- <li> <a href="https://arxiv.org/abs/2305.17600">[P3] NashFormer: Leveraging Local Nash Equilibria for Semantically Diverse Trajectory Prediction. Lidard, et al. (2023)</a></li> -->
+        <!-- Pragmatic-Pedagogic Value Alignment -->
+      </ul>
+    </td>
+    <!-- <td></td> -->
+ </tr>
+
+ <tr class="block"> 
+    <td><b>Week 13</b> <br> Thurs, Nov 21</td>
+    <td><i><span class="label label-lecture text-base">Lecture</span></i> Safety & Uncertainty Quantification</td>
+    <td>
+      Decision-theoretic & statistical safety for HRI
+      <p><b>Materials:</b>
+      <a class="label label-notes text-base" href="./static/pdf/Lecture11-SafeHRI.pdf"><b><i>Slides</i></b></a>
+      </p>
+    </td>
+ </tr>
+ 
+   <!--------------------------->   
+ <tr>
+    <td><b>Week 14</b> <br> Tue, Nov 26</td>
+    <td><i><span class="label label-presentation text-base">Paper discussion</span></i> Safety & Uncertainty Quantification </td> 
+    <td>
+      <p><b>Required Reading:</b></p>
+      <ul>
+        <li> <a href="https://arxiv.org/abs/2409.09883"> [P1] Robots That Suggest Safe Alternatives. Jeong & Bajcsy. (2024) </a></li>
+        <li> <a href="https://arxiv.org/abs/2307.01928">[P2] Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners. Ren, et al. (2023) </a></li>
+        <!-- <li> <a href="https://arxiv.org/abs/2405.09794">[P3] Human-AI Safety: A Descendant of Generative AI and Control Systems Safety. Bajcsy & Fisac (2024)</a></li></li> -->
+      </ul>
+    </td>
+ </tr>
+
+
+ <tr>
+    <td><b>Week 14</b> <br> Thurs, Nov 28</td>
+    <td><i>No Class (Thanksgiving)</i></td>
+    <td> 
+    </td>
+ </tr>
+ 
+ <!--------------------------->  
+ 
+ <tr class="block"> 
+    <td><b>Week 15</b> <br> Tue, Dec 3</td>
+    <td><i><span class="label label-presentation text-base">Final presentations</span></i> </td>
+    <td>
+      <i><span class="label label-due text-base">Due</span></i> <b>Slides uploaded to Canvas Dec. 2, 11:59pm ET</b>
+      <p><i>Presenters:</i> [Allison Chu, Cherry Bhatt, Sheen Cao], Yizhuo (Ethan) Di, Haoze He, [Louis Plottel, Yingxin Zhang], Will Heitman, Jasmine Kim
+</p>
+    </td>
+ </tr>
+
+  <tr class="block"> 
+    <td><b>Week 15</b> <br> Thurs, Dec 5</td>
+    <td><i><span class="label label-presentation text-base">Final presentations</span></i> </td>
+    <td>
+    <p><i>Presenters:</i> [Lyuxing He, Lingkan Wang], Ellen Lee, Taiming Zhang, Arthur Fender Bucker, Diana Frias Franco
+    </p>
+    </td>
+  </tr>
+
+ <!--------------------------->
+
+ 
+ <tr>
+    <td><b>Week 16</b> <br> Tue, Dec 10</td>
+    <td><i>No Class (Final Exams)</i> </td>
+    <td>
+    </td>
+ </tr>
+
+  <tr>
+    <td><b>Week 16</b> <br> Thurs, Dec 12</td>
+    <td><i>No Class (Final Exams)</i> </td>
+    <td>
+      <i><span class="label label-due text-base">Due</span></i> <b>Final report uploaded to Canvas by Dec 12, 11:59pm ET</b>
+    </td>
+  </tr>
+
+ <!--------------------------->
+  
+
+</table>
+  <!--/ SCHEDULE -->
+
+  <!-- Footer -->
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="padding-top:0px;">
+    <tbody>
+      <tr>
+      <td class=main>
+      <br>
+      <p></p>
+      <br><br>
+      </td>
+      </tr>
+    </tbody>
+  </table>
+  <!--/ Footer -->
+
+</body>
+
+</html>
