@@ -11,26 +11,28 @@ Aug. 28
   : 
 
 Sept. 2
-: Probability, Bayesian Inference
+: Value Iteration, Reinforcement Learning
   : 
 
 Sept. 4
-: Intent Modeling and Inference
-  : [Goal Inference as Inverse Planning](https://escholarship.org/content/qt5v06n97q/qt5v06n97q.pdf)
+: POMDPs, Probability, Bayesian Inference
+  : 
+  <!-- [Goal Inference as Inverse Planning](https://escholarship.org/content/qt5v06n97q/qt5v06n97q.pdf) -->
   <!-- **HW #1 Out**{: .label .label-default} -->
 
 Sept. 9
-: Mathematical Human Models
+: Intent Inference & Expression
   : 
 
 Sept. 11
-: Mathematical Human Models
-  : **Paper Reading**{: .label .label-red} [LESS is More](https://arxiv.org/abs/2001.04465), [Modeling & Influencing Dynamics of Human Learning](https://arxiv.org/abs/2301.00901)
+: Intent Inference & Expression
+  : **Paper Reading**{: .label .label-red} [Expressing Thought](https://www.leilatakayama.org/downloads/Takayama.Animation_HRI2011_prepress.pdf), [Functional Expressive Motion](https://arxiv.org/abs/2203.02091)
 
 Sept. 16 
-: Experimental Design
+: Reward and Policy Learning 
   : 
+  <!-- **In Class Coding Exercise**{: .label .label-blue}  -->
 
 Sept. 18
 : Experimental Design
-  : **In Class Coding Exercise**{: .label .label-blue} 
+  : 

@@ -3,7 +3,7 @@ title: Prediction for Action
 ---
 
 Sept. 23
-: Trajectory Forecasting
+: **Guest Lecture**{: .label .label-green} Trajectory Forecasting
   : 
   <!-- **HW #2 Out**{: .label .label-default} -->
 
@@ -12,20 +12,20 @@ Sept. 25
   : **Paper Reading**{: .label .label-red} [Confidence-Aware Prediction](https://arxiv.org/abs/1806.00109), [MultiPath](https://arxiv.org/abs/1910.05449)
 
 Sept. 30
-: Shared Autonomy 
+: Collaboration, Assistance, & Coordination
   : 
 
 Oct. 2
 : Shared Autonomy
-  : **Paper Reading**{: .label .label-red} [SARI](https://arxiv.org/abs/2205.09795), [LILA](https://arxiv.org/abs/2111.03205)
+  : **Paper Reading**{: .label .label-red} [Shared Autonomy via Hindsight Optimization](https://arxiv.org/abs/1503.07619), [LILA](https://arxiv.org/abs/2111.03205)
 
 Oct. 7
-: Communication
+: HRI as a Game
   : 
 
 Oct. 9
-: Communication
-  : **Paper Reading**{: .label .label-red} [Legibility](https://www.ri.cmu.edu/pub_files/2013/3/legiilitypredictabilityIEEE.pdf), [Communicating via AR and Haptics](https://arxiv.org/pdf/2109.01747)
+: HRI as a Game
+  : **Paper Reading**{: .label .label-red} [Cooperative Inverse RL](https://arxiv.org/abs/1606.03137), [Planning for AVs that Effect Humans](https://web.archive.org/web/20220218155452id_/http://www.roboticsproceedings.org/rss12/p29.pdf)
 
 
 Oct. 14
@@ -36,11 +36,3 @@ Oct. 14
 Oct. 26
 : **No Class**{: .label .label-purple} Fall Break 🍂
   : 
-
-Oct. 21
-: HRI as a Game
-  : 
-
-Oct. 23
-: HRI as a Game
-  : **Paper Reading**{: .label .label-red} [Planning for AVs that Effect Humans](https://web.archive.org/web/20220218155452id_/http://www.roboticsproceedings.org/rss12/p29.pdf), [Contingency Games](https://arxiv.org/abs/2304.05483)
