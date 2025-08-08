@@ -17,7 +17,7 @@ Sept. 2
 Sept. 4
 : POMDPs, Probability, Bayesian Inference
   : 
-  <!-- [Goal Inference as Inverse Planning](https://escholarship.org/content/qt5v06n97q/qt5v06n97q.pdf) -->
+  [Goal Inference as Inverse Planning](https://escholarship.org/content/qt5v06n97q/qt5v06n97q.pdf)
   <!-- **HW #1 Out**{: .label .label-default} -->
 
 Sept. 9
@@ -31,8 +31,7 @@ Sept. 11
 Sept. 16 
 : Reward and Policy Learning 
   : 
-  <!-- **In Class Coding Exercise**{: .label .label-blue}  -->
 
 Sept. 18
-: Experimental Design
-  : 
+: Experimental Design & Statistical Analysis
+  : [A Primer for Conducting Experiments in Human–Robot Interaction](https://dl.acm.org/doi/pdf/10.1145/3412374) **HW #1 DUE**{: .label .label-default}
