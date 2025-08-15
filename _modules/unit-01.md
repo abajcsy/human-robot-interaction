@@ -34,4 +34,4 @@ Sept. 16
 
 Sept. 18
 : Experimental Design & Statistical Analysis
-  : [A Primer for Conducting Experiments in Human–Robot Interaction](https://dl.acm.org/doi/pdf/10.1145/3412374) **HW #1 DUE**{: .label .label-default}
+  : **HW #1 DUE**{: .label .label-default} [A Primer for Conducting Experiments in Human–Robot Interaction](https://dl.acm.org/doi/pdf/10.1145/3412374) 

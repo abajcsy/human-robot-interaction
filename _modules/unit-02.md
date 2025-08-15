@@ -3,7 +3,7 @@ title: Prediction for Action
 ---
 
 Sept. 23
-: **Guest Lecture**{: .label .label-green} Trajectory Forecasting
+: **Guest Lecture**{: .label .label-green} Trajectory Forecasting ([Ingrid Navarro](https://navars.xyz/), CMU)
   : 
   <!-- **HW #2 Out**{: .label .label-default} -->
 
@@ -33,6 +33,6 @@ Oct. 14
   : 
 
 
-Oct. 26
+Oct. 16
 : **No Class**{: .label .label-purple} Fall Break 🍂
   : 
