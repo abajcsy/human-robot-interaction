@@ -49,3 +49,10 @@ Nov. 20
 : Safety & Uncertainty in HRI
   : **Paper Reading**{: .label .label-red} [Robots that Suggest Safe Alternatives](https://arxiv.org/abs/2409.09883v2), [Robots that Ask for Help](https://arxiv.org/abs/2307.01928)
 
+Nov. 25
+: **Cancelled Class**{: .label .label-purple} Thanksgiving 
+  : 
+
+Nov. 27
+: **No Class**{: .label .label-purple} Thanksgiving
+  : 

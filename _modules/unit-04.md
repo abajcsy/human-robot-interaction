@@ -1,12 +1,12 @@
 ---
-title: Research Skills
+title: Project Presentations
 ---
 
-Nov. 25
-: Technical Writing & Presentation
-  : 
+Dec. 2
+: Project Presentations
+  : **Slides Due 11:59 pm ET, Dec 1**{: .label .label-yellow}
 
 
-Nov. 27
-: **No Class**{: .label .label-purple} Thanksgiving
-  : 
+Dec. 4
+: Project Presentations 
+  : **Project Report Due Dec 11**{: .label .label-yellow} 
