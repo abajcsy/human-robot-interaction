@@ -9,7 +9,7 @@ Sept. 23
 
 Sept. 25
 : Trajectory Forecasting
-  : **Paper Reading**{: .label .label-red} [Confidence-Aware Prediction](https://arxiv.org/abs/1806.00109), [MultiPath](https://arxiv.org/abs/1910.05449)
+  : **Paper Reading**{: .label .label-red} [Confidence-Aware Prediction](https://arxiv.org/abs/1806.00109), [ManiCast](https://arxiv.org/abs/2310.13258)
 
 Sept. 30
 : Collaboration, Assistance, & Coordination
