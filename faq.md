@@ -29,11 +29,13 @@ If using physical hardware is infeasible for your project, consider using **simu
 * [nuPlan](https://github.com/motional/nuplan-devkit) - large-scale planning benchmark for autonomous driving
 * [Waymax](https://github.com/waymo-research/waymax) - a lightweight, multi-agent, JAX-based simulator for autonomous driving research based on the Waymo Open Motion Dataset)
 
-*Manipulation and Locomotion*
+*Manipulation, Locomotion, Indoor Navigation*
 * [IsaacSim](https://github.com/isaac-sim/IsaacSim) - simulation platform built on NVIDIA Omniverse, designed to develop, test, train, and deploy AI-powered robots in realistic virtual environments. 
 * [robosuite](https://robosuite.ai/) / [robomimic](https://robomimic.github.io/) - simulation powered by the MuJoCo physics engine, and a broad set of demonstration datasets collected on robot manipulation domains, and learning algorithms to learn from these datasets.
 * [LIBERO](https://libero-project.github.io/main) - a procedural generation pipeline that can generate manipulation tasks.
 * [AssistiveGym](https://github.com/Healthcare-Robotics/assistive-gym) - a physics-based simulation framework for physical human-robot interaction and robotic assistance. 
+* [HabitatSim](https://github.com/facebookresearch/habitat-sim) - physics-enabled 3D simulator with scans of indoor/outdoor spaces, CAD models of spaces and piecewise-rigid objects, configurable sensors, and robots. 
+* [VLN-CE](https://github.com/jacobkrantz/VLN-CE) - instruction-guided navigation task with crowdsourced instructions, realistic environments, and unconstrained agent navigation.
 
 *Human 3D/4D Reconstruction*
 * [AAMAS](https://amass.is.tue.mpg.de/) - moition capture dataset of 4D human motion in freespace
