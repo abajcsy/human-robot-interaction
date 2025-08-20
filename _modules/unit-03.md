@@ -39,7 +39,7 @@ Nov. 11
 
 Nov. 13
 : Active Learning
-  : **Paper Reading**{: .label .label-red} [Active Learning from Demonstratons](https://www.ri.cmu.edu/pub_files/2012/5/icra2012.pdf), [Asking Easy Questions](https://arxiv.org/abs/1910.04365)
+  : **Paper Reading**{: .label .label-red} [Active Learning from Critiques](https://par.nsf.gov/servlets/purl/10064341), [Asking Easy Questions](https://arxiv.org/abs/1910.04365)
 
 Nov. 18
 : Safety & Uncertainty in HRI
