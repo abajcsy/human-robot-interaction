@@ -25,7 +25,7 @@ Oct. 7
 
 Oct. 9
 : HRI as a Game
-  : **Paper Reading**{: .label .label-red} [Cooperative Inverse RL](https://arxiv.org/abs/1606.03137), [Planning for AVs that Effect Humans](https://web.archive.org/web/20220218155452id_/http://www.roboticsproceedings.org/rss12/p29.pdf)
+  : **Paper Reading**{: .label .label-red} [Planning for AVs that Effect Humans](https://web.archive.org/web/20220218155452id_/http://www.roboticsproceedings.org/rss12/p29.pdf), [Long-term Robot Influence on Humans](https://arxiv.org/abs/2209.10588)
 
 
 Oct. 14
