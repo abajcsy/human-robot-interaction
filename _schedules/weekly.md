@@ -26,6 +26,10 @@ schedule:
         start: 11:00 AM
         end: 12:20 PM
         location: NSH 3002
+      - name: Office Hours (Andrea)
+        start: 12:20 PM
+        end: 1:20 PM
+        location: NSH 4629
   - name: Wednesday
   - name: Thursday
     events:
@@ -33,9 +37,5 @@ schedule:
         start: 11:00 AM
         end: 12:20 PM
         location: NSH 3002
-      - name: Office Hours (Andrea)
-        start: 1:00 PM
-        end: 2:00 PM
-        location: NSH 4629
   - name: Friday
 ---

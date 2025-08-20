@@ -78,10 +78,11 @@ Resources, we encourage you to contact them at [access@andrew.cmu.edu](access@an
 This course will have no exams. Instead, grading will be broken down by 
 
 - **Attendance**: We want students to attend lectures in person consistently. Students are permitted *2 unexcused absences*, no questions asked, before being docked.
-- **Paper Summaries & Presentations**: One goal we have for this course is for you to understand how to consume, explain, and critique research papers.  Paper summaries are 1-2 paragraph descriptions of the reading assignments that will be submitted to Canvas. Paper presentations occur during in-class discussions. 
+- **Paper Summaries & Discussions**: One goal we have for this course is for you to understand how to consume, explain, and critique research papers.  Paper summaries are 1-2 paragraph descriptions of the reading assignments that will be submitted to Canvas. Paper presentations occur during in-class discussions. 
 - **Homeworks**: This course will have a few implementation-based homeworks that allow you to apply techniques from the class.
-- **Project**: Students will engage in a semester-long research project related to the themes of the course before presenting them at the end of the semester. The class project can be either a thorough literature review (∼ 50 relevant papers, organized so that it identifies gaps in the state of the art) or an exploration of an original research idea. 
-You can choose to work individually or in groups of up to three. We offer an **opportunity for extra credit** if you discuss your project idea with a course staff member and write a 1 paragraph summary of your idea and discussion which you submit to canvas before Fall break.  By this stage, you should have decided if you are doing a project on your own or in a group and you want to motivate the topic you have chosen and the technical questions that you want to investigate. Midway through the semester, students will submit mid-term reports as a checkpoint to ensure that you are making progress towards your final project. The final project consists of an oral project presentation as well as a final project report of the length of a typical robotics or machine learning conference paper (~6 pages).
+- **Project**: Students will engage in a semester-long research project related to the themes of the course before presenting them at the end of the semester. The class project can be either an exploration of an original research idea or a thorough literature review (∼ 50 relevant papers, organized so that it identifies gaps in the state of the art).
+**You must work in a group of min 2 and max 5 people. Explicit permission from Andrea should be granted if you want to work on an independent project.** Midway through the semester, students will submit mid-term reports as a checkpoint to ensure that you are making progress towards your final project. The final project consists of an oral project presentation as well as a final project report of the length of a typical robotics or machine learning conference paper (~6 pages).
+- **Extra Credit**: We offer an opportunity for extra credit if you discuss your project idea with a course staff member and write a 1 paragraph summary of your idea and discussion which you submit to canvas before Fall break.  By this stage, you should have decided if you are doing a project on your own or in a group and you want to motivate the topic you have chosen and the technical questions that you want to investigate. 
 
 Percentage | Activity  | 
 ------|-----|
@@ -91,7 +92,7 @@ Percentage | Activity  |
 10%| Midterm Project Report |
 40%| Final Project |
 
-## Paper Summaries & Presentations
+## Paper Summaries & Discussions
 ### Paper Summaries
 There will be several paper discussion days during which you will be as-
 signed research papers to read. You are expected to complete all assigned readings before class
@@ -99,7 +100,7 @@ and come prepared with comments and questions to discuss with the group. You wil
 paragraphs with your takeaways or questions on each reading on Canvas, by **10am ET of the
 day the reading will be discussed.**
 
-### Paper Presentations
+### Paper Discussions
 During paper discussion days, we will dive into two papers. During the
 very first discussion day, we will randomly assign you into groups that you will keep throughout
 the semester. On each paper discussion day, there will be a set of discussion topics we have
