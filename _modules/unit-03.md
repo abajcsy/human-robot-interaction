@@ -18,7 +18,7 @@ Oct. 28
 
 Oct. 30
 : Representation Learning
-  : **Paper Reading**{: .label .label-red} **Mid-term Report Due**{: .label .label-yellow} [SIRL](https://arxiv.org/abs/2301.00810), [ALGAE](https://arxiv.org/abs/2409.08212)
+  : **Paper Reading**{: .label .label-red} **Mid-term Report Due**{: .label .label-yellow} [RAPL](https://arxiv.org/abs/2310.07932), [ALGAE](https://arxiv.org/abs/2409.08212)
   
   <!-- [Human-in-the-loop Continual Learning](https://arxiv.org/abs/2211.08416), [Learning Human Objectives by Evaluating Hypothetical Behavior](https://arxiv.org/abs/1912.05652) -->
 
