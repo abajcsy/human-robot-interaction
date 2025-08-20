@@ -29,6 +29,18 @@ If using physical hardware is infeasible for your project, consider using **simu
 * [nuPlan](https://github.com/motional/nuplan-devkit) - large-scale planning benchmark for autonomous driving
 * [Waymax](https://github.com/waymo-research/waymax) - a lightweight, multi-agent, JAX-based simulator for autonomous driving research based on the Waymo Open Motion Dataset)
 
+*Manipulation and Locomotion*
+* [IsaacSim](https://github.com/isaac-sim/IsaacSim) - simulation platform built on NVIDIA Omniverse, designed to develop, test, train, and deploy AI-powered robots in realistic virtual environments. 
+* [robosuite](https://robosuite.ai/) | [robomimic](https://robomimic.github.io/) - simulation powered by the MuJoCo physics engine, and a broad set of demonstration datasets collected on robot manipulation domains, and learning algorithms to learn from these datasets.
+* [LIBERO](https://libero-project.github.io/main) - a procedural generation pipeline that can generate manipulation tasks.
+* [AssistiveGym](https://github.com/Healthcare-Robotics/assistive-gym) - a physics-based simulation framework for physical human-robot interaction and robotic assistance. 
+
+*Human 3D/4D Reconstruction*
+* [AAMAS](https://amass.is.tue.mpg.de/) - moition capture dataset of 4D human motion in freespace
+* [GRAB](https://grab.is.tue.mpg.de/) | [HUMOTO](https://jiaxin-lu.github.io/humoto/) - motion capture dataset of humans interacting with objects
+* [Human Mesh Recovery (3D)](https://github.com/akanazawa/hmr) - extract 3D model of human from video
+* [Humans in 4D](https://github.com/shubham-goel/4D-Humans) - extract 4D model of human from video
+
 ## I don't have access to compute! What can I do?
 
 Here are some options to get access to GPUs:
