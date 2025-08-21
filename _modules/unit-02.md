@@ -13,7 +13,7 @@ Sept. 25
 
 Sept. 30
 : Collaboration, Assistance, & Coordination
-  : 
+  : **Project Proposal Due**{: .label .label-yellow} 
 
 Oct. 2
 : Shared Autonomy

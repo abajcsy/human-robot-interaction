@@ -3,24 +3,22 @@ title: Learning, Alignment, and Safety
 ---
 
 Oct. 21
+: Representation Learning 
+  : **Paper Reading**{: .label .label-red} [RAPL](https://arxiv.org/abs/2310.07932), [ALGAE](https://arxiv.org/abs/2409.08212)
+
+Oct. 23
+: Project Pitch & Red-Teaming
+  :  **Mid-term Report and Pitch Presentation Due**{: .label .label-yellow} 
+
+Oct. 28
 : Alignment 
   : 
 
-Oct. 23
-: Alignment
-  : **Paper Reading**{: .label .label-red} 
-  [Deep RL from Preferences](https://arxiv.org/abs/2001.04465), [Learning from Physical HRI](https://arxiv.org/abs/2301.00901)
-
-Oct. 28
-: Representation Learning
-  : 
-  <!-- [Learning from Physical HRI](https://proceedings.mlr.press/v78/bajcsy17a/bajcsy17a.pdf), [Correcting Robot Plans with Natural Language Feedback](https://arxiv.org/abs/2204.05186) -->
-
 Oct. 30
-: Representation Learning
-  : **Paper Reading**{: .label .label-red} **Mid-term Report Due**{: .label .label-yellow} [RAPL](https://arxiv.org/abs/2310.07932), [ALGAE](https://arxiv.org/abs/2409.08212)
+: Alignment
+  : **Paper Reading**{: .label .label-red}
+  [Deep RL from Preferences](https://arxiv.org/abs/2001.04465), [Learning from Physical HRI](https://arxiv.org/abs/2301.00901)
   
-  <!-- [Human-in-the-loop Continual Learning](https://arxiv.org/abs/2211.08416), [Learning Human Objectives by Evaluating Hypothetical Behavior](https://arxiv.org/abs/1912.05652) -->
 
 
 Nov. 4
@@ -35,11 +33,11 @@ Nov. 6
 
 Nov. 11
 : **Guest Lecture**{: .label .label-green} Active Learning ([Erdem Bıyık](https://ebiyik.github.io/), USC)
-  : 
+  :  
 
 Nov. 13
 : Active Learning
-  : **Paper Reading**{: .label .label-red} [Active Learning from Critiques](https://par.nsf.gov/servlets/purl/10064341), [Asking Easy Questions](https://arxiv.org/abs/1910.04365)
+  : **HW #2 Due**{: .label .label-blue} **Paper Reading**{: .label .label-red} [Active Learning from Critiques](https://par.nsf.gov/servlets/purl/10064341), [Asking Easy Questions](https://arxiv.org/abs/1910.04365)
 
 Nov. 18
 : Safety & Uncertainty in HRI
