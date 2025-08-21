@@ -8,7 +8,7 @@ Oct. 21
 
 Oct. 23
 : Project Pitch & Red-Teaming
-  :  **Mid-term Report and Pitch Presentation Due**{: .label .label-yellow} 
+  :  **Mid-term Report Due**{: .label .label-yellow} **Project Pitch Due**{: .label .label-yellow} 
 
 Oct. 28
 : Alignment 
