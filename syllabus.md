@@ -75,38 +75,40 @@ Resources, we encourage you to contact them at [access@andrew.cmu.edu](access@an
 - **Email**: If you email your instructors, please include the substring "[HRI Course]" to begin a meaningful subject line and have tried to resolve the issue appropriately otherwise. Please use your CMU email account.
 
 ## Grading
-This course will have no exams. Instead, grading will be broken down by 
-
-- **Attendance**: We want students to attend lectures in person consistently. Students are permitted *2 unexcused absences*, no questions asked, before being docked.
-- **Paper Summaries & Discussions**: One goal we have for this course is for you to understand how to consume, explain, and critique research papers.  Paper summaries are 1-2 paragraph descriptions of the reading assignments that will be submitted to Canvas. Paper presentations occur during in-class discussions. 
-- **Homeworks**: This course will have a few implementation-based homeworks that allow you to apply techniques from the class.
-- **Project**: Students will engage in a semester-long research project related to the themes of the course before presenting them at the end of the semester. The class project can be either an exploration of an original research idea or a thorough literature review (∼ 50 relevant papers, organized so that it identifies gaps in the state of the art).
-**You must work in a group of min 2 and max 5 people. Explicit permission from Andrea should be granted if you want to work on an independent project.** Midway through the semester, students will submit mid-term reports as a checkpoint to ensure that you are making progress towards your final project. The final project consists of an oral project presentation as well as a final project report of the length of a typical robotics or machine learning conference paper (~6 pages).
-- **Extra Credit**: We offer an opportunity for extra credit if you discuss your project idea with a course staff member and write a 1 paragraph summary of your idea and discussion which you submit to canvas before Fall break.  By this stage, you should be able to motivate the topic you have chosen and the technical questions that you want to investigate. 
+This course will have no exams. Instead, grading will be broken down by the following categories, with maximal emphasis on a project that is completed throughout the semester. 
 
 Percentage | Activity  | 
 ------|-----|
-10%| Attendance |
-30%| HW |
+10%| Attendance & Participation|
+20%| HW (2x) |
 10%| Paper Summaries |
-10%| Midterm Project Report |
-40%| Final Project |
+5% | Project Proposal | 
+20%| Midterm Project (Report + Presentation) |
+35%| Final Project (Report + Presentation) |
 
-## Paper Summaries & Discussions
-### Paper Summaries
-There will be several paper discussion days during which you will be as-
-signed research papers to read. You are expected to complete all assigned readings before class
-and come prepared with comments and questions to discuss with the group. You will share 1–2
-paragraphs with your takeaways or questions on each reading on Canvas, by **10am ET of the
-day the reading will be discussed.**
 
-### Paper Discussions
+- **Attendance & Participation**: We want students to attend lectures and paper discussions in person consistently for the benefit of all taking the class. Students are permitted *2 unexcused absences*, no questions asked, before being docked. 
+- **Homeworks**: This course will have a few Python-based coding homeworks that allow students to apply techniques from the class.
+- **Paper Summaries & Discussions**: One goal we have for this course is for you to understand how to consume, explain, and critique research papers. 
+There will be several paper discussion days during which you will be assigned research papers to read. Paper discussions occur in-class. Before a paper discussion day, you are expected to complete all assigned readings and submit paper summaries to Canvas by **10am ET of the
+day the reading will be discussed.** The **paper summaries must answer the following questions:**
+1. What assumptions were made about (a) robot/algorithm, (b) human, (c) their interaction?
+2. What extensions would you propose? Scope & justify.   
+3. What do you like about this work?
+- **Project**: Students will engage in a semester-long research project related to the themes of the course before presenting them at the end of the semester. The class project can be either an exploration of an original research idea or a thorough literature review (∼ 50 relevant papers, organized so that it identifies gaps in the state of the art).
+**You must work in a group of min 2 and max 5 people. Explicit permission from Andrea should be granted if you want to work on an independent project.** To help you make progress throughout the semester, we have three check-points:
+	* *Project Proposal:* Early in the semester, students will submit a project proposal / pitch via Canvas. 
+	* *Midterm Project Check-in:* Midway through the semester, students will submit a mid-term report via Canvas and give an oral presentation in-class about the status of their project. 
+	* *Final Project:* The final project consists of an oral project presentation as well as a final project report of the length of a typical robotics or machine learning conference paper (6 pages).
+
+
+## Paper Discussion Days
+
 During paper discussion days, we will dive into two papers. During the
 very first discussion day, we will randomly assign you into groups that you will keep throughout
 the semester. On each paper discussion day, there will be a set of discussion topics we have
 generated for each of the papers. In your group, you will discuss the assigned topics. In each
-group, one person will be randomly assigned to be the group representative who, after the in-
-class discussion period, will come up and present on the group’s conclusions. The whole class
+group, one person will be randomly assigned to be the group representative who, after the in-class discussion period, will come up and present on the group’s conclusions. The whole class
 will engage the presenter on their conclusions and takeaways. *(Note: this paper presentation structure is subject to change based on class size).*
 
 ## Health & Wellness
