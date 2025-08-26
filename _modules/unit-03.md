@@ -27,7 +27,7 @@ Nov. 4
 
 
 Nov. 6
-: **Guest Lecture**{: .label .label-green} HRI in the Era of Foundation Models ([Sidd Karamcheti](https://www.siddkaramcheti.com/), TRI / Incoming Prof. @ Georgia Tech)
+: **Guest Lecture**{: .label .label-green} HRI in the Era of Foundation Models ([Sidd Karamcheti](https://www.siddkaramcheti.com/), TRI / Georgia Tech)
   : 
   <!-- **Paper Reading**{: .label .label-red} [Max Alignment, Min Feedback](https://arxiv.org/abs/2412.04835), [FOREWARN](https://arxiv.org/abs/2502.01828) -->
 
