@@ -3,7 +3,7 @@ title: Foundations
 ---
 
 Aug. 26
-: Course Overview &nbsp; [[Slides]]((./assets/pdfs/1Lecture1-Intro.pdf)
+: Course Overview &nbsp; [[Slides]](./assets/pdfs/1Lecture1-Intro.pdf)
   : [Syllabus](https://abajcsy.github.io/human-robot-interaction/syllabus/)
 
 Aug. 28

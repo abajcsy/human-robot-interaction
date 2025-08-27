@@ -1,5 +1,5 @@
 ---
-title: Hello!
+title: Week 1
 week: 1
 date: 2025-08-26
 ---
