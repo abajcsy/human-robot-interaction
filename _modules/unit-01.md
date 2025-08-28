@@ -7,7 +7,7 @@ Aug. 26
   : [Syllabus](https://abajcsy.github.io/human-robot-interaction/syllabus/)
 
 Aug. 28
-: Single-Agent Sequential Decision-Making
+: Single-Agent Decision-Making [[Slides]](./assets/pdfs/2Lecture2-SequentialDecisionMaking.pdf)  
   : 
 
 Sept. 2
