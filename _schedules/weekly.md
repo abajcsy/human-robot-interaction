@@ -20,6 +20,11 @@ timeline:
   - '5:30 PM'
 schedule:
   - name: Monday
+    events:
+      - name: Office Hours (Yilin)
+        start: 11:00 AM
+        end: 12:00 PM
+        location: NSH 4306
   - name: Tuesday
     events:
       - name: Lecture
