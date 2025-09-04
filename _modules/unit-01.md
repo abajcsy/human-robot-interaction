@@ -15,18 +15,17 @@ Sept. 2
   : [Test Your Knowledge](./assets/pdfs/TestYourKnowledge-MDPExample.pdf) (from CS188, Berkeley)
 
 Sept. 4
-: POMDPs, Probability, Bayesian Inference
+: POMDPs &nbsp; [[Notes]](./assets/pdfs/4Lecture4-POMDPs.pdf)
   : 
-  [Goal Inference as Inverse Planning](https://escholarship.org/content/qt5v06n97q/qt5v06n97q.pdf)
   <!-- **HW #1 Out**{: .label .label-default} -->
 
 Sept. 9
-: Intent Inference & Expression
-  : 
+: Probability, Bayesian Inference 
+  : [Goal Inference as Inverse Planning](https://escholarship.org/content/qt5v06n97q/qt5v06n97q.pdf)
 
 Sept. 11
 : Intent Inference & Expression
-  : **Paper Reading**{: .label .label-red} [Expressing Thought](https://www.leilatakayama.org/downloads/Takayama.Animation_HRI2011_prepress.pdf), [Functional Expressive Motion](https://arxiv.org/abs/2203.02091)
+  : [Expressing Thought](https://www.leilatakayama.org/downloads/Takayama.Animation_HRI2011_prepress.pdf), [Functional Expressive Motion](https://arxiv.org/abs/2203.02091)
 
 Sept. 16 
 : Reward and Policy Learning 
