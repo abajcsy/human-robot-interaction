@@ -87,3 +87,13 @@ A good figure is not just one that is aesthetically pretty, but is intentional. 
 After you know what you want to communicate, then you can focus on making the figure aesthetically pretty. This will save you a lot of time when generating a pretty figure. 
 
 If you are still unsure about the “process” of making pretty figures, read Andrea’s paper [“An Optimal Control Approach to Graphic Design”](https://cmu-intentlab.github.io/pdf/bajcsy-SIGBOVIK.pdf).
+
+## Is there a textbook for the class?
+
+There is no official textbook for the class, but the foundations of this class draw upon topics covered by the following excellent textbooks: 
+
+* **Artificial Intelligence: A Modern Approach** by Russell and Norvig
+* **Reinforcement Learning** by Sutton and Barto
+* **Probabilistic Robotics** by Thrun, Burgard, Fox
+* **Dynamic Noncooperative Game Theory** by Başar and Olsder
+* **Humans and Automation** by Sheridan
