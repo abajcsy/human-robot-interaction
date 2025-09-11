@@ -24,8 +24,8 @@ Sept. 9
   : [Goal Inference as Inverse Planning](https://escholarship.org/content/qt5v06n97q/qt5v06n97q.pdf)
 
 Sept. 11
-: Intent Inference & Expression
-  : [Expressing Thought](https://www.leilatakayama.org/downloads/Takayama.Animation_HRI2011_prepress.pdf), [Functional Expressive Motion](https://arxiv.org/abs/2203.02091)
+: Intent Inference & Expression &nbsp; [[Notes]](./assets/pdfs/6Lecture6-IntentExpression-Inference.pdf)
+  : [Expressing Thought](https://www.leilatakayama.org/downloads/Takayama.Animation_HRI2011_prepress.pdf), [Functional Expressive Motion](https://arxiv.org/abs/2203.02091), [Predictability & Legibility](https://www.ri.cmu.edu/pub_files/2014/7/legibility_AURO14.pdf)
 
 Sept. 16 
 : Reward and Policy Learning 

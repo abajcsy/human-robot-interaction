@@ -4,4 +4,4 @@ week: 3
 date: 2025-09-09
 ---
 
-Lecture on solving probability and Bayes rule posted. 
+Lecture on solving probability and Bayes rule posted. Lecture on intent inference and expression posted. 
