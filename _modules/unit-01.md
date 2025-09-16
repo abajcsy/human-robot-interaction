@@ -28,8 +28,8 @@ Sept. 11
   : [Expressing Thought](https://www.leilatakayama.org/downloads/Takayama.Animation_HRI2011_prepress.pdf), [Functional Expressive Motion](https://arxiv.org/abs/2203.02091), [Predictability & Legibility](https://www.ri.cmu.edu/pub_files/2014/7/legibility_AURO14.pdf)
 
 Sept. 16 
-: Reward and Policy Learning 
-  : 
+: Reward and Policy Learning &nbsp; [[Notes]](./assets/pdfs/7Lecture7-Reward-Policy-Learning.pdf)
+  : [An Invitation to Imitation](https://www.ri.cmu.edu/pub_files/2015/3/InvitationToImitation_3_1415.pdf), [MaxEntIRL](https://cdn.aaai.org/AAAI/2008/AAAI08-227.pdf), [SAILOR](https://arxiv.org/abs/2506.05294)
 
 Sept. 18
 : Experimental Design & Statistical Analysis
