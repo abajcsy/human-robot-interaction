@@ -32,5 +32,8 @@ Sept. 16
   : [An Invitation to Imitation](https://www.ri.cmu.edu/pub_files/2015/3/InvitationToImitation_3_1415.pdf), [MaxEntIRL](https://cdn.aaai.org/AAAI/2008/AAAI08-227.pdf), [SAILOR](https://arxiv.org/abs/2506.05294)
 
 Sept. 18
-: Experimental Design & Statistical Analysis
+: Experimental Design & Statistical Analysis &nbsp; [[Notes]](./assets/pdfs/8Lecture8-ExperimentalDesign.pdf)
   : **HW #1 DUE**{: .label .label-default} [A Primer for Conducting Experiments in Human–Robot Interaction](https://dl.acm.org/doi/pdf/10.1145/3412374) 
+
+
+  
