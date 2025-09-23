@@ -3,16 +3,15 @@ title: Prediction for Action
 ---
 
 Sept. 23
-: **Guest Lecture**{: .label .label-green} Trajectory Forecasting ([Ingrid Navarro](https://navars.xyz/), CMU)
+: **Guest Lecture**{: .label .label-green} Trajectory Forecasting ([Ingrid Navarro](https://navars.xyz/), CMU) &nbsp; [[Slides]](./assets/pdfs/9Lecture9-Trajectory-Forecasting-Ingrid.pdf)
   : 
-  <!-- **HW #2 Out**{: .label .label-default} -->
 
 Sept. 25
 : Trajectory Forecasting
   : **Paper Reading**{: .label .label-red} [Confidence-Aware Prediction](https://arxiv.org/abs/1806.00109), [ManiCast](https://arxiv.org/abs/2310.13258)
 
 Sept. 30
-: Collaboration, Assistance, & Coordination
+: Collaboration, Assistance, & Coordination 
   : **Project Proposal Due**{: .label .label-yellow} 
 
 Oct. 2
@@ -20,7 +19,7 @@ Oct. 2
   : **Paper Reading**{: .label .label-red} [Shared Autonomy via Hindsight Optimization](https://arxiv.org/abs/1503.07619), [LILA](https://arxiv.org/abs/2111.03205)
 
 Oct. 7
-: HRI as a Game
+: HRI as a Game 
   : 
 
 Oct. 9
