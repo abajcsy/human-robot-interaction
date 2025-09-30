@@ -11,7 +11,7 @@ Sept. 25
   : **Paper Reading**{: .label .label-red} [Confidence-Aware Prediction](https://arxiv.org/abs/1806.00109), [ManiCast](https://arxiv.org/abs/2310.13258)
 
 Sept. 30
-: Collaboration, Assistance, & Coordination &nbsp; [[Slides]](./assets/pdfs/10Lecture10-Collab-Coord-Assist.pdf)
+: Collaboration, Assistance, & Coordination &nbsp; [[Notes]](./assets/pdfs/10Lecture10-Collab-Coord-Assist.pdf)
   : **Project Proposal Due**{: .label .label-yellow} 
 
 Oct. 2
