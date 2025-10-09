@@ -19,7 +19,7 @@ Oct. 2
   : **Paper Reading**{: .label .label-red} [Shared Autonomy via Hindsight Optimization](https://arxiv.org/abs/1503.07619), [LILA](https://arxiv.org/abs/2111.03205)
 
 Oct. 7
-: HRI as a Game 
+: HRI as a Game &nbsp; [[Notes]](./assets/pdfs/11Lecture11-Game-Theory.pdf)
   : 
 
 Oct. 9
