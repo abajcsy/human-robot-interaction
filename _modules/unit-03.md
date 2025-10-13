@@ -8,7 +8,7 @@ Oct. 21
 
 Oct. 23
 : Project Pitch & Red-Teaming
-  :  **Mid-term Report Due**{: .label .label-yellow} **Mid-Term Presentation Due**{: .label .label-yellow} 
+  :  **Mid-Term Presentation Due**{: .label .label-yellow} 
 
 Oct. 28
 : Alignment 
@@ -16,7 +16,7 @@ Oct. 28
 
 Oct. 30
 : Alignment
-  : **Paper Reading**{: .label .label-red}
+  : **Paper Reading**{: .label .label-red} **Mid-term Report Due**{: .label .label-yellow}
   [Deep RL from Preferences](https://arxiv.org/abs/2001.04465), [Learning from Physical HRI](https://arxiv.org/abs/2301.00901)
   
 
