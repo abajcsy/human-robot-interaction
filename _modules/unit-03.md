@@ -17,8 +17,7 @@ Oct. 28
 Oct. 30
 : Alignment
   : **Paper Reading**{: .label .label-red} **Mid-term Report Due**{: .label .label-yellow}
-  [Deep RL from Preferences](https://arxiv.org/abs/2001.04465), [Learning from Physical HRI](https://arxiv.org/abs/2301.00901)
-  
+  [Deep RL from Preferences](https://arxiv.org/abs/1706.03741), [Learning from Physical HRI](https://proceedings.mlr.press/v78/bajcsy17a/bajcsy17a.pdf)
 
 
 Nov. 4
