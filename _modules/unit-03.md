@@ -11,11 +11,11 @@ Oct. 23
   :  **Mid-Term Presentation Due**{: .label .label-yellow} 
 
 Oct. 28
-: Alignment 
-  : 
+: Alignment &nbsp; [[Notes]](./assets/pdfs/12Lecture12-Alignment.pdf)
+  : [Open Problems in RLHF](https://arxiv.org/abs/2307.15217), [RLHF for Traffic Simulation](https://arxiv.org/abs/2309.00709), [Less is More](https://arxiv.org/abs/2001.04465)
 
 Oct. 30
-: Alignment
+: Alignment 
   : **Paper Reading**{: .label .label-red} **Mid-term Report Due**{: .label .label-yellow}
   [Deep RL from Preferences](https://arxiv.org/abs/1706.03741), [Learning from Physical HRI](https://proceedings.mlr.press/v78/bajcsy17a/bajcsy17a.pdf)
 
