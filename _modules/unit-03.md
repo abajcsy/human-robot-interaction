@@ -31,7 +31,7 @@ Nov. 6
   <!-- **Paper Reading**{: .label .label-red} [Max Alignment, Min Feedback](https://arxiv.org/abs/2412.04835), [FOREWARN](https://arxiv.org/abs/2502.01828) -->
 
 Nov. 11
-: **Guest Lecture**{: .label .label-green} Active Learning ([Erdem Bıyık](https://ebiyik.github.io/), USC)
+: **Guest Lecture**{: .label .label-green} Active Learning ([Erdem Bıyık](https://ebiyik.github.io/), USC) &nbsp; [[Slides]](./assets/pdfs/13Lecture13-Learning-From-Humans-Erdem.pdf)
   :  
 
 Nov. 13
