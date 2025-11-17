@@ -40,12 +40,11 @@ Nov. 13
 
 Nov. 18
 : Safety & Uncertainty in HRI
-  : [Safety with Agency](https://arxiv.org/abs/2504.11717)
+  : [Safety with Agency](https://arxiv.org/abs/2504.11717), [Robots that Ask for Help](https://arxiv.org/abs/2307.01928), [Robots that Suggest Safe Alternatives](https://arxiv.org/abs/2409.09883v2)
 
 Nov. 20
 : **Guest Lecture**{: .label .label-green} HRI in the Era of Foundation Models ([Sidd Karamcheti](https://www.siddkaramcheti.com/), TRI / Georgia Tech)
   : 
-  <!-- **Paper Reading**{: .label .label-red} [Robots that Suggest Safe Alternatives](https://arxiv.org/abs/2409.09883v2), [Robots that Ask for Help](https://arxiv.org/abs/2307.01928) -->
 
 Nov. 25
 : **Cancelled Class**{: .label .label-purple} Thanksgiving 
