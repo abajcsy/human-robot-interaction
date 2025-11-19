@@ -39,7 +39,7 @@ Nov. 13
   : **HW #2 Due: Nov 16 (Sunday)**{: .label .label-blue} **Paper Reading**{: .label .label-red} [Active Learning from Critiques](https://par.nsf.gov/servlets/purl/10064341), [Asking Easy Questions](https://arxiv.org/abs/1910.04365)
 
 Nov. 18
-: Safety & Uncertainty in HRI
+: Safety & Uncertainty in HRI &nbsp; [[Slides]](./assets/pdfs/14Lecture14-safety-uncertainty.pdf)
   : [Safety with Agency](https://arxiv.org/abs/2504.11717), [Robots that Ask for Help](https://arxiv.org/abs/2307.01928), [Robots that Suggest Safe Alternatives](https://arxiv.org/abs/2409.09883v2)
 
 Nov. 20
