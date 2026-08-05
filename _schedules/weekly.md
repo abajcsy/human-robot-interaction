@@ -25,7 +25,7 @@ schedule:
       - name: Lecture
         start: 11:00 AM
         end: 12:20 PM
-        location: NSH 3002
+        location: GHC 4303
       - name: Office Hours (Andrea)
         start: 12:20 PM
         end: 1:20 PM
@@ -36,6 +36,6 @@ schedule:
       - name: Lecture
         start: 11:00 AM
         end: 12:20 PM
-        location: NSH 3002
+        location: GHC 4303
   - name: Friday
 ---

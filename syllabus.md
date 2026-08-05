@@ -23,7 +23,7 @@ Robot interaction with people is inevitable: human engineers iteratively tune ro
 - **Title**: Human Robot Interaction, Fall 2025
 - **Course Number**: 16-867
 - **Lecture**: 11:00AM--12:20PM EST, Tues & Thurs
-- **Location**: NSH 3002
+- **Location**: GHC 4303
 - **Office Hours**: Please see "Schedule" tab
 
 ## Prerequisites
