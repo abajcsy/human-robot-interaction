@@ -2,36 +2,39 @@
 title: Prediction for Action 
 ---
 
-Sept. 23
-: **Guest Lecture**{: .label .label-green} Trajectory Forecasting ([Ingrid Navarro](https://navars.xyz/), CMU) &nbsp; [[Slides]](./assets/pdfs/9Lecture9-Trajectory-Forecasting-Ingrid.pdf)
-  : 
-
-Sept. 25
+Sept. 22
 : Trajectory Forecasting
   : **Paper Reading**{: .label .label-red} [Confidence-Aware Prediction](https://arxiv.org/abs/1806.00109), [ManiCast](https://arxiv.org/abs/2310.13258)
+  <!-- [[Slides]](./assets/pdfs/9Lecture9-Trajectory-Forecasting-Ingrid.pdf) -->
 
-Sept. 30
-: Collaboration, Assistance, & Coordination &nbsp; [[Notes]](./assets/pdfs/10Lecture10-Collab-Coord-Assist.pdf)
+Sept. 24
+: **Guest Lecture**{: .label .label-green} Trajectory Forecasting ([Ingrid Navarro](https://navars.xyz/), CMU) &nbsp; 
+  : 
+
+Sept. 29
+: Collaboration, Assistance, & Coordination &nbsp; 
   : **Project Proposal Due**{: .label .label-yellow} 
+  <!-- [[Notes]](./assets/pdfs/10Lecture10-Collab-Coord-Assist.pdf) -->
 
-Oct. 2
+Oct. 1
 : Shared Autonomy
   : **Paper Reading**{: .label .label-red} [Shared Autonomy via Hindsight Optimization](https://arxiv.org/abs/1503.07619), [LILA](https://arxiv.org/abs/2111.03205)
 
-Oct. 7
-: HRI as a Game &nbsp; [[Notes]](./assets/pdfs/11Lecture11-Game-Theory.pdf)
+Oct. 6
+: HRI as a Game &nbsp; 
   : 
+  <!-- [[Notes]](./assets/pdfs/11Lecture11-Game-Theory.pdf) -->
 
-Oct. 9
+Oct. 8
 : HRI as a Game
   : **Paper Reading**{: .label .label-red} [Planning for AVs that Effect Humans](https://web.archive.org/web/20220218155452id_/http://www.roboticsproceedings.org/rss12/p29.pdf), [Long-term Robot Influence on Humans](https://arxiv.org/abs/2209.10588)
 
 
-Oct. 14
+Oct. 13
 : **No Class**{: .label .label-purple} Fall Break 🍂
   : 
 
 
-Oct. 16
+Oct. 15
 : **No Class**{: .label .label-purple} Fall Break 🍂
   : 

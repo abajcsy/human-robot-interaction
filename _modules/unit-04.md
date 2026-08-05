@@ -2,14 +2,13 @@
 title: Project Presentations
 ---
 
-Dec. 2
+Dec. 1
 : Project Presentations
-  : **Slides Due 11:59 pm ET, Dec 1**{: .label .label-yellow} **Presenters:**
-  Jenny, Owen, (Angelica, Anisha, Daehwa, Jack, Lily), (Haoyang, Yiqi), (Sreyas, Soumojit)
+  : **Slides Due 11:59 pm ET, Nov 30**{: .label .label-yellow} **Presenters:** TBA
 
 
 
-Dec. 4
+Dec. 3
 : Project Presentations 
-  : **Project Report Due Dec 11**{: .label .label-yellow} **Presenters:** (Adrian, Mehul, Juee, Nate), (Sophie, Jasmine, Ayush, Samanvita), Jiashun, (Liting, Ding-Jiun, Beijia), (Shikun, Lucky, Shohei, Zixi)
+  : **Project Report Due Friday, Dec. 11**{: .label .label-yellow} **Presenters:** TBA
 
