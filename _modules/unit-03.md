@@ -46,7 +46,7 @@ Nov. 17
   <!-- [[Slides]](./assets/pdfs/14Lecture14-safety-uncertainty.pdf) -->
 
 Nov. 19
-: **Guest Lecture**{: .label .label-green} HRI in the Era of Foundation Models ([Sidd Karamcheti](https://www.siddkaramcheti.com/), TRI / Georgia Tech)
+: **Guest Lecture**{: .label .label-green} TBA ([TBA](https://), TBA)
   : 
 
 Nov. 24

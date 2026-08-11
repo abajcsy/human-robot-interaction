@@ -8,7 +8,7 @@ seo:
 ---
 
 # Human Robot Interaction
-Fall 2025. 16-867. Tuesday / Thursday 11:00am-12:20pm.
+Fall 2026. 16-867. Tuesday / Thursday 11:00am-12:20pm.
 
 ![Image](/assets/images/front-fig.png)
 
