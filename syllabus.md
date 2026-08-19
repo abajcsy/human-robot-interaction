@@ -81,10 +81,11 @@ Percentage | Activity  |
 ------|-----|
 10%| Attendance & Participation|
 20%| HW (2x) |
-10%| Paper Summaries |
+5%| Paper Summaries |
 5% | Project Proposal | 
 20%| Midterm Project (Report + Presentation) |
-35%| Final Project (Report + Presentation) |
+10%| Project Feedback from Course Staff |
+30%| Final Project (Report + Presentation) |
 
 
 - **Attendance & Participation**: We want students to attend lectures and paper discussions in person consistently for the benefit of all taking the class. Students are permitted *2 unexcused absences*, no questions asked, before being docked. 
@@ -100,6 +101,7 @@ day the reading will be discussed.** The **paper summaries must answer the follo
 	* *Project Proposal:* Early in the semester, students will submit a project proposal / pitch via Canvas. 
 	* *Midterm Project Check-in:* Midway through the semester, students will submit a mid-term report via Canvas and give an oral presentation in-class about the status of their project. 
 	* *Final Project:* The final project consists of an oral project presentation as well as a final project report of the length of a typical robotics or machine learning conference paper (6 pages).
+- **Project Feedback from Course Staff**: A final, but important part of the class is engaging with the course staff about your project. *You must schedule a 30 min meeting with a member of course staff sometime between the start of the semester and Nov. 20th (Friday) to receive detailed feedback.* This is 10% of the class grade. 
 
 
 ## Paper Discussion Days
