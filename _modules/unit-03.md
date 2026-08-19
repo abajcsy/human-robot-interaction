@@ -37,7 +37,7 @@ Nov. 10
 
 
 Nov. 12
-: **Guest Lecture**{: .label .label-green} <i>(tentative)</i> Guy Rosman ([Latent Spaces Meet HRI](https://people.csail.mit.edu/rosman/), Toyota Research Institute)
+: **Guest Lecture**{: .label .label-green} <i>(tentative)</i> Latent Spaces Meet HRI ([Guy Rosman](https://people.csail.mit.edu/rosman/), Toyota Research Institute)
   : **HW #2 Due: Nov 15 (Sunday)**{: .label .label-blue} [Dream2Assist](https://arxiv.org/abs/2410.10062)
 
 Nov. 17
