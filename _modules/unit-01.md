@@ -25,12 +25,12 @@ Sept. 3
 
 Sept. 8
 : Probability, Bayesian Inference  &nbsp; 
-  : **HW #1 DUE**{: .label .label-default} [Goal Inference as Inverse Planning](https://escholarship.org/content/qt5v06n97q/qt5v06n97q.pdf)
+  : [Goal Inference as Inverse Planning](https://escholarship.org/content/qt5v06n97q/qt5v06n97q.pdf)
   <!-- [[Notes]](./assets/pdfs/5Lecture5-Probability-BayesRule.pdf) -->
 
 Sept. 10
 : Intent Inference & Expression &nbsp; 
-  : [Expressing Thought](https://www.leilatakayama.org/downloads/Takayama.Animation_HRI2011_prepress.pdf), [Functional Expressive Motion](https://arxiv.org/abs/2203.02091), [Predictability & Legibility](https://www.ri.cmu.edu/pub_files/2014/7/legibility_AURO14.pdf)
+  : **HW #1 DUE**{: .label .label-default} [Expressing Thought](https://www.leilatakayama.org/downloads/Takayama.Animation_HRI2011_prepress.pdf), [Functional Expressive Motion](https://arxiv.org/abs/2203.02091), [Predictability & Legibility](https://www.ri.cmu.edu/pub_files/2014/7/legibility_AURO14.pdf)
   <!-- [[Notes]](./assets/pdfs/6Lecture6-IntentExpression-Inference.pdf) -->
 
 Sept. 15 
