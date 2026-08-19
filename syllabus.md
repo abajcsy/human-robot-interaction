@@ -101,7 +101,7 @@ day the reading will be discussed.** The **paper summaries must answer the follo
 	* *Project Proposal:* Early in the semester, students will submit a project proposal / pitch via Canvas. 
 	* *Midterm Project Check-in:* Midway through the semester, students will submit a mid-term report via Canvas and give an oral presentation in-class about the status of their project. 
 	* *Final Project:* The final project consists of an oral project presentation as well as a final project report of the length of a typical robotics or machine learning conference paper (6 pages).
-- **Project Feedback from Course Staff**: A final, but important part of the class is engaging with the course staff about your project. *You must schedule a 30 min meeting with a member of course staff sometime between the start of the semester and Nov. 20th (Friday) to receive detailed feedback.* This is 10% of the class grade. 
+- **Project Feedback from Course Staff**: A final, but important part of the class is engaging with the course staff about your project. *You must schedule a 30 min meeting with a member of course staff sometime between the start of the semester and Nov. 20th (Friday) to receive detailed feedback.* **After the meeting, please submit a brief summary of the discussion and submit it under the Canvas assignment for your grade.** This is 10% of the class grade. 
 
 
 ## Paper Discussion Days
