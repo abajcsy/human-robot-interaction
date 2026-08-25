@@ -3,9 +3,8 @@ title: Foundations
 ---
 
 Aug. 25
-: Course Overview &nbsp; 
+: Course Overview &nbsp; [[Slides]](./assets/pdfs/1Lecture1-Intro.pdf)
   : [Syllabus](https://abajcsy.github.io/human-robot-interaction/syllabus/)
-  <!-- [[Slides]](./assets/pdfs/1Lecture1-Intro.pdf) -->
 
 Aug. 27
 : Single-Agent Decision-Making   
