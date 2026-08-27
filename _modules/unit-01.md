@@ -7,9 +7,9 @@ Aug. 25
   : [Syllabus](https://abajcsy.github.io/human-robot-interaction/syllabus/)
 
 Aug. 27
-: Single-Agent Decision-Making   
-  : 
-  <!-- [[Notes]](./assets/pdfs/2Lecture2-SequentialDecisionMaking.pdf) -->
+: Single-Agent Decision-Making [[Notes]](./assets/pdfs/2Lecture2-SequentialDecisionMaking.pdf)  
+  : Ch. 17 [Russel & Norvig](https://people.engr.tamu.edu/guni/csce625/slides/AI.pdf), Ch. 1.1 [Bertsekas](https://eclass.uoa.gr/modules/document/file.php/DI437/Reinforcement_Learning_Bertsekas_Draft.pdf) 
+  
 
 Sept. 1
 : Value Iteration, Reinforcement Learning &nbsp; 
