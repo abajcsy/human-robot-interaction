@@ -8,7 +8,7 @@ Aug. 25
 
 Aug. 27
 : Single-Agent Decision-Making [[Notes]](./assets/pdfs/2Lecture2-SequentialDecisionMaking.pdf)  
-  : Ch. 17 [Russel & Norvig](https://people.engr.tamu.edu/guni/csce625/slides/AI.pdf), Ch. 1.1 [Bertsekas](https://eclass.uoa.gr/modules/document/file.php/DI437/Reinforcement_Learning_Bertsekas_Draft.pdf) 
+  : Ch. 17 [Russel & Norvig](https://www.cs.utexas.edu/~pstone/Courses/309fall24/preclass/readings/week14_Russell_and_Norvig___AI__A_Modern_Approach___Ch_26.pdf), Ch. 1.1 [Bertsekas](https://eclass.uoa.gr/modules/document/file.php/DI437/Reinforcement_Learning_Bertsekas_Draft.pdf) 
   
 
 Sept. 1
