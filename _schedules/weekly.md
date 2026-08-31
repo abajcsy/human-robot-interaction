@@ -30,6 +30,10 @@ schedule:
         start: 12:20 PM
         end: 1:20 PM
         location: NSH 4629
+      - name: Office Hours (Joe)
+        start: 1:00 PM
+        end: 2:00 PM
+        location: NSH 4306
   - name: Wednesday
   - name: Thursday
     events:
@@ -38,4 +42,8 @@ schedule:
         end: 12:20 PM
         location: GHC 4303
   - name: Friday
+      - name: Office Hours (Sreyas)
+        start: 2:00 PM
+        end: 3:00 PM
+        location: NSH 4228A
 ---
