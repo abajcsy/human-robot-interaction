@@ -12,9 +12,8 @@ Aug. 27
   
 
 Sept. 1
-: Value Iteration, Reinforcement Learning &nbsp; 
+: Value Iteration, Reinforcement Learning &nbsp; [[Notes]](./assets/pdfs/3Lecture3-SolvingMDPs.pdf) 
   : [Test Your Knowledge](./assets/pdfs/TestYourKnowledge-MDPExample.pdf) (from CS188, Berkeley)
-  <!-- [[Notes]](./assets/pdfs/3Lecture3-SolvingMDPs.pdf)    -->
 
 Sept. 3
 : POMDPs | Project Ideation Exercise &nbsp; 
