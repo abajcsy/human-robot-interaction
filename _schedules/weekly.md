@@ -42,6 +42,7 @@ schedule:
         end: 12:20 PM
         location: GHC 4303
   - name: Friday
+    events:
       - name: Office Hours (Sreyas)
         start: 2:00 PM
         end: 3:00 PM
