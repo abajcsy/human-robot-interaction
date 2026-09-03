@@ -16,10 +16,9 @@ Sept. 1
   : [Test Your Knowledge](./assets/pdfs/TestYourKnowledge-MDPExample.pdf) (from CS188, Berkeley)
 
 Sept. 3
-: POMDPs | Project Ideation Exercise &nbsp; 
+: POMDPs | Project Ideation Exercise &nbsp; [[Notes]](./assets/pdfs/4Lecture4-POMDPs.pdf)
   : 
   <!-- **HW #1 Out**{: .label .label-default} -->
-  <!-- [[Notes]](./assets/pdfs/4Lecture4-POMDPs.pdf) -->
 
 Sept. 8
 : Probability, Bayesian Inference  &nbsp; 
