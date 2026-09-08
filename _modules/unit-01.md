@@ -21,9 +21,8 @@ Sept. 3
   <!-- **HW #1 Out**{: .label .label-default} -->
 
 Sept. 8
-: Probability, Bayesian Inference  &nbsp; 
+: Probability, Bayesian Inference  &nbsp; [[Notes]](./assets/pdfs/5Lecture5-Probability-BayesRule.pdf)
   : [Goal Inference as Inverse Planning](https://escholarship.org/content/qt5v06n97q/qt5v06n97q.pdf)
-  <!-- [[Notes]](./assets/pdfs/5Lecture5-Probability-BayesRule.pdf) -->
 
 Sept. 10
 : Intent Inference & Expression &nbsp; 
