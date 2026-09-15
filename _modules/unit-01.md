@@ -34,7 +34,7 @@ Sept. 15
 
 Sept. 17
 : Experimental Design & Statistical Analysis &nbsp; 
-  : **Project Proposal Due**{: .label .label-yellow} [A Primer for Conducting Experiments in Human–Robot Interaction](https://dl.acm.org/doi/pdf/10.1145/3412374) 
+  : **Project Proposal Due (Sunday, Sept 20th)**{: .label .label-yellow} [A Primer for Conducting Experiments in Human–Robot Interaction](https://dl.acm.org/doi/pdf/10.1145/3412374) 
   <!-- [[Notes]](./assets/pdfs/8Lecture8-ExperimentalDesign.pdf) -->
 
 
