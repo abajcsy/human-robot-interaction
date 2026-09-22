@@ -3,9 +3,8 @@ title: Prediction for Action
 ---
 
 Sept. 22
-: Collaboration, Assistance, & Coordination &nbsp; 
+: Collaboration, Assistance, & Coordination &nbsp; [[Notes]](./assets/pdfs/9Lecture9-Collab-Coord-Assist.pdf) 
   : 
-  <!-- [[Notes]](./assets/pdfs/10Lecture10-Collab-Coord-Assist.pdf) -->
 
 Sept. 24
 : **Guest Lecture**{: .label .label-green} Trajectory Forecasting ([Ingrid Navarro](https://navars.xyz/), CMU) &nbsp; 
