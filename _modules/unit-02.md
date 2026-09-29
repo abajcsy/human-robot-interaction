@@ -16,9 +16,8 @@ Sept. 29
   <!-- [[Slides]](./assets/pdfs/9Lecture9-Trajectory-Forecasting-Ingrid.pdf) -->
 
 Oct. 1
-: HRI as a Game &nbsp; 
+: HRI as a Game &nbsp; [[Notes]](./assets/pdfs/11Lecture11-Game-Theory.pdf)
   : [Planning for AVs that Effect Humans](https://web.archive.org/web/20220218155452id_/http://www.roboticsproceedings.org/rss12/p29.pdf), [Contingency Games](https://arxiv.org/abs/2304.05483), [iLQGames](https://arxiv.org/abs/1909.04694)
-  <!-- [[Notes]](./assets/pdfs/11Lecture11-Game-Theory.pdf) -->
 
 Oct. 6
 : [Shared Autonomy](https://www.techrxiv.org/doi/10.36227/techrxiv.176617724.41163595)
