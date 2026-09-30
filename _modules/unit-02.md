@@ -7,13 +7,12 @@ Sept. 22
   : 
 
 Sept. 24
-: **Guest Lecture**{: .label .label-green} Trajectory Forecasting ([Ingrid Navarro](https://navars.xyz/), CMU) &nbsp; 
+: **Guest Lecture**{: .label .label-green} Trajectory Forecasting ([Ingrid Navarro](https://navars.xyz/), CMU) &nbsp; [[Slides]](./assets/pdfs/10Lecture10-Trajectory-Forecasting-Ingrid.pdf)
   : 
 
 Sept. 29
 : Trajectory Forecasting 
   : **Paper Reading**{: .label .label-red} [Confidence-Aware Prediction](https://arxiv.org/abs/1806.00109), [ManiCast](https://arxiv.org/abs/2310.13258)
-  <!-- [[Slides]](./assets/pdfs/9Lecture9-Trajectory-Forecasting-Ingrid.pdf) -->
 
 Oct. 1
 : HRI as a Game &nbsp; [[Notes]](./assets/pdfs/11Lecture11-Game-Theory.pdf)
