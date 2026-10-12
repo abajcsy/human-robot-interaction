@@ -4,7 +4,7 @@ title: Learning, Alignment, and Safety
 
 Oct. 20
 : World Models 
-  : [Latent Dynamics](https://arxiv.org/abs/1811.04551), [Deep Latent Competition](https://arxiv.org/abs/2102.09812), [People Construct Simplified Mental Models for Planning](https://arxiv.org/abs/2105.06948)
+  : [Latent Dynamics](https://arxiv.org/abs/1811.04551), [Inferring Beliefs about Dynamics from Behavior](https://arxiv.org/abs/1805.08010), [People Construct Simplified Mental Models for Planning](https://arxiv.org/abs/2105.06948)
 
 Oct. 22
 : Representation Learning 
