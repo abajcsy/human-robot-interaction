@@ -37,7 +37,7 @@ Nov. 10
 
 
 Nov. 12
-: **Guest Lecture**{: .label .label-green} Latent Spaces Meet HRI ([Guy Rosman](https://people.csail.mit.edu/rosman/ and [Jon DeCastro](https://jadecastro.github.io/)), Toyota Research Institute)
+: **Guest Lecture**{: .label .label-green} Latent Spaces Meet HRI ([Guy Rosman](https://people.csail.mit.edu/rosman/) and [Jon DeCastro](https://jadecastro.github.io/)), Toyota Research Institute)
   : **HW #2 Due: Nov 15 (Sunday)**{: .label .label-blue} [Dream2Assist](https://arxiv.org/abs/2410.10062)
 
 Nov. 17
