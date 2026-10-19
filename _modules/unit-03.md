@@ -3,7 +3,7 @@ title: Learning, Alignment, and Safety
 ---
 
 Oct. 20
-: World Models 
+: World Models &nbsp; [[Notes]](./assets/pdfs/12Lecture12-WorldModeling.pdf)  
   : [Latent Dynamics](https://arxiv.org/abs/1811.04551), [Inferring Beliefs about Dynamics from Behavior](https://arxiv.org/abs/1805.08010), [People Construct Simplified Mental Models for Planning](https://arxiv.org/abs/2105.06948)
 
 Oct. 22
