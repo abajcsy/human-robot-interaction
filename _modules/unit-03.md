@@ -8,7 +8,7 @@ Oct. 20
 
 Oct. 22
 : Representation Learning 
-  : **Mid-term Report Due**{: .label .label-yellow} **Paper Reading**{: .label .label-red} [RAPL](https://arxiv.org/abs/2310.07932), [ALGAE](https://arxiv.org/abs/2409.08212)
+  : **Mid-term Report Due: Oct 23 (Friday)**{: .label .label-yellow} **Paper Reading**{: .label .label-red} [RAPL](https://arxiv.org/abs/2310.07932), [ALGAE](https://arxiv.org/abs/2409.08212)
 
 Oct. 27
 : Alignment &nbsp; 
