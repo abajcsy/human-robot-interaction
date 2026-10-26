@@ -11,9 +11,9 @@ Oct. 22
   : **Mid-term Report Due: Oct 23 (Friday)**{: .label .label-yellow} **Paper Reading**{: .label .label-red} [RAPL](https://arxiv.org/abs/2310.07932), [ALGAE](https://arxiv.org/abs/2409.08212)
 
 Oct. 27
-: Alignment &nbsp; 
-  : [Open Problems in RLHF](https://arxiv.org/abs/2307.15217), [RLHF for Traffic Simulation](https://arxiv.org/abs/2309.00709), [Less is More](https://arxiv.org/abs/2001.04465)
-  <!-- [[Notes]](./assets/pdfs/12Lecture12-Alignment.pdf) -->
+: Alignment &nbsp; [[Notes]](./assets/pdfs/13Lecture13-Alignment.pdf)
+  : [Open Problems in RLHF](https://arxiv.org/abs/2307.15217), [RLHF for Traffic Simulation](https://arxiv.org/abs/2309.00709), [A unifying formalism for reward learning](https://proceedings.neurips.cc/paper/2020/file/2f10c1578a0706e06b6d7db6f0b4a6af-Paper.pdf), [Cooperative IRL](https://arxiv.org/abs/1606.03137)
+
 
 Oct. 29
 : Alignment 
