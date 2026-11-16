@@ -27,9 +27,8 @@ Nov. 3
 
 
 Nov. 5
-: **Guest Lecture**{: .label .label-green} Active Learning ([Erdem Bıyık](https://ebiyik.github.io/), USC) &nbsp; 
+: **Guest Lecture**{: .label .label-green} Active Learning ([Erdem Bıyık](https://ebiyik.github.io/), USC) &nbsp; [[Slides]](./assets/pdfs/2026_11_05_Erdem.pdf)
   : 
-    <!-- [[Slides]](./assets/pdfs/13Lecture13-Learning-From-Humans-Erdem.pdf) -->
 
 Nov. 10
 : Active Learning
@@ -41,7 +40,7 @@ Nov. 12
   : **HW #2 Due: Nov 15 (Sunday)**{: .label .label-blue} [Dream2Assist](https://arxiv.org/abs/2410.10062)
 
 Nov. 17
-: Uncertainty in HRI &nbsp;
+: Uncertainty in HRI &nbsp; [[Notes]](./assets/pdfs/15Lecture15-Uncertainty.pdf)
   : [Robots that Ask for Help](https://arxiv.org/abs/2307.01928), [When to Act, Ask, or Learn](https://arxiv.org/abs/2602.22474)
 
 Nov. 19
