@@ -44,7 +44,7 @@ Nov. 17
   : [Robots that Ask for Help](https://arxiv.org/abs/2307.01928), [When to Act, Ask, or Learn](https://arxiv.org/abs/2602.22474)
 
 Nov. 19
-: Safety in HRI [[Notes]](./assets/pdfs/16Lecture16-Safety.pdf)
+: Safety in HRI &nbsp; [[Notes]](./assets/pdfs/16Lecture16-Safety.pdf), [[Slides]](./assets/pdfs/16Lecture16-Safety-slides.pdf)
   : **Last Day for Project Feedback: Nov 20 (Friday)**{: .label .label-yellow} [Safety with Agency](https://arxiv.org/abs/2504.11717),  [Robots that Suggest Safe Alternatives](https://arxiv.org/abs/2409.09883v2)
 
 
